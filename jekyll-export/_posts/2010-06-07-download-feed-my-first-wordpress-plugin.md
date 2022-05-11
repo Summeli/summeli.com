@@ -50,4 +50,4 @@ here’s an example request:
 http://www.summeli.com/wp-content/plugins/downloadfeed/feed.php?i=2&n=3&cat=1
 ```
 
-As usual, this plugin is open source, and it can be downloaded from my github page [www.github.org/Summeli](www.github.org/Summeli)
+As usual, this plugin is open source, and it can be downloaded from my github page [github.com/Summeli](https://github.com/Summeli)
