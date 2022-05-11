@@ -23,13 +23,13 @@ timezone:
 
 title: Summeli.com                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: developing stuff   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  Developing emulators and some gaming related stuff
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://summeli.github.io'
 
 github:
   username: Summeli             # change to your github username
