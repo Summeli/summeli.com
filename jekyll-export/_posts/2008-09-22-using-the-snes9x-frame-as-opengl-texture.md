@@ -14,11 +14,11 @@ tags:
     - porting
 ---
 
-The Opengl ES framework requires that the texture size must be powers of two. <span> </span>My current version outputs 320×208 pixels frames, so they can not be used as textures.
+The Opengl ES framework requires that the texture size must be powers of two. My current version outputs 320×208 pixels frames, so they can not be used as textures.
 
-I looked at the porting instructions and it says that GFX.Pitch should point how many bytes there as per frame. With this I should be able to get 256×239 or 256×224 resolutions. It shouldn’t be too hard to add few back scan lines to the image to get it 256×256. My current Snes9x version has some nasty resolution hacks and it doesn’t have any settings for GFX.Pitch (or it doesn’t se it at least). I think that I will try to take out the rendering part from dr. PocketSnes and merge it with my code. <span> </span>It main.cpp defines 320×240 resolution for frames, but the GFX.Pitch is used as expected, so I hope that the rendering part will output 256×240 frames as well.
+I looked at the porting instructions and it says that GFX.Pitch should point how many bytes there as per frame. With this I should be able to get 256×239 or 256×224 resolutions. It shouldn’t be too hard to add few back scan lines to the image to get it 256×256. My current Snes9x version has some nasty resolution hacks and it doesn’t have any settings for GFX.Pitch (or it doesn’t se it at least). I think that I will try to take out the rendering part from dr. PocketSnes and merge it with my code. It main.cpp defines 320×240 resolution for frames, but the GFX.Pitch is used as expected, so I hope that the rendering part will output 256×240 frames as well.
 
-I’m also going to make a small optimization trick to the current rendering part and see how much I can get with “decent” rendering routine. <span> </span>However I’m still planning to use OpenGL ES for the rendering.
+I’m also going to make a small optimization trick to the current rendering part and see how much I can get with “decent” rendering routine. However I’m still planning to use OpenGL ES for the rendering.
 
 The OpenGL ES based rendering has some advantages over DSA (DirectScreenAccess).
 

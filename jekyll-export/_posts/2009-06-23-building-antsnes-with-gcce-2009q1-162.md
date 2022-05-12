@@ -23,43 +23,41 @@ I have been waiting for new GCCE patch from Nokia for ages. The old GCCE is base
 One modification was for switch case statements. The GCCE 2009Q1 – 162 seems to be more firm about switch case statements. For example following code isn’t allowed anymore:
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 switch (a)
 {
-case 1:
-if(my cond)
-{
-int i=0;
-}
-break;
-case 2:
-//mycase
-break;
+    case 1:
+    if(my cond)
+    {
+        int i=0;
+    }
+    break;
+    case 2:
+        //mycase
+    break;
 }
 ```
 
 The switch case must be written like this:
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 switch (a)
 {
-case 1:
-{
-if(my cond)
-{
-int i=0;
-}
-}
-break;
-case 2:
-//mycase
-break;
+    case 1:
+    {
+        if(my cond)
+        {
+            int i=0;
+        }
+    }
+    break;
+    case 2:
+    //mycase
+    break;
 }
 ```
 
   
 The new compiler doesn’t support -finline-functions optimization flag, so it might produce a bit slower code. However the compiler should have a lot of bugs fixed etc, so it could still be a lot faster.  
 Download the[ Sourcery G++ Lite 2009q1-162](http://www.codesourcery.com/sgpp/lite/arm/portal/release822) and try it out! It worked really well for me.  
-I was testing the new compiler just fun, so I don’t know if anyone should use this build. If you want to try how much faster the new GCCE is, then you can try it. For all new users I would recomment the current[ AntSnes 0.63 release](http://www.summeli.com/?p=845). However I think that the new GCCE build seems to be a bit faster with N96, so you are welcome to try it. Just don’t ask for bug fixes into this version, since there might be bugs caused by the unsupported compiler.  
-AntSnes gcce 2009q1 – 162 build: [AntSnes\_GCCE2009Q1\_build.sis](http://www.summeli.com/wp-content/uploads/2009/06/AntSnes_GCCE2009Q1_build.sis)
+I was testing the new compiler just fun, so I don’t know if anyone should use this build. If you want to try how much faster the new GCCE is, then you can try it. For all new users I would recomment the current[ AntSnes 0.63 release](/845). However I think that the new GCCE build seems to be a bit faster with N96, so you are welcome to try it. Just don’t ask for bug fixes into this version, since there might be bugs caused by the unsupported compiler.  
+AntSnes gcce 2009q1 – 162 build: [AntSnes\_GCCE2009Q1\_build.sis](/jekyll-export/wp-content/uploads/2009/06/AntSnes_GCCE2009Q1_build.sis)

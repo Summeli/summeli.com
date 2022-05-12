@@ -27,7 +27,6 @@ After you have installed everything you need, you can start building. You should
 You can build the whole project by running these commands at the AntSnes root directory.
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 bldmake bldfiles
 abld build gcce urel
 ```

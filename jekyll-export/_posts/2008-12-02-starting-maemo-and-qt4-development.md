@@ -40,6 +40,5 @@ Moving files between source and scratchbox:
 create directory in scratchbox side, which will be binded to the host side, for example directory host. Create a binding directory also in the host side. Then bind the directories between host and scratchbox, by bind command in the host side:
 
 ```
-<pre class="brush: css; title: ; notranslate" title="">
 sudo mount --bind bind_dir /scratchbox/users/usrname/home/usrnamel/host/
 ```

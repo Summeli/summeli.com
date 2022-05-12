@@ -22,7 +22,6 @@ It turns out that the Sony Ericsson Satio and Vivaz seems to have similar issues
 The SE support also says that the ScreenDevice-&gt;update() must be called before the screen is actually updated. Therefore we must add that into the blit method.
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
     TAcceleratedBitmapInfo bitmapInfo;
     iDSBitmap->BeginUpdate(bitmapInfo);
     bitmapdata = (TUint8*) bitmapInfo.iAddress;

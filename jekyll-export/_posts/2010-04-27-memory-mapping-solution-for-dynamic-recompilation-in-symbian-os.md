@@ -20,28 +20,26 @@ tags:
     - porting
 ---
 
-The gpsp was my first emulator port with dynamic recompilation. The problem in memory mapping and dynarec is that local data in Symbian OS is too far away from the user area, where we the new memory chunk for the dynamic area was created. My first solution was the [memory trampoline](http://www.summeli.com/?p=1106) pattern.  
+The gpsp was my first emulator port with dynamic recompilation. The problem in memory mapping and dynarec is that local data in Symbian OS is too far away from the user area, where we the new memory chunk for the dynamic area was created. My first solution was the [memory trampoline](/1106) pattern.  
 However I got an optimal solution from Olli Hinkka. The solution is called dynamic text segment relocation routine. Basically the relocator is relocating the process into the user memory are in Symbian. With this approach no memory trampoline is required, since the static side is close enough to the dynamic side.  
 How to use it:  
 You’ll need Olli Hinkka’s relocator code. You can find it at least from gpsp github.[ relocutils.h](http://github.com/Summeli/gpSP4Symbian/blob/master/inc/relocutils.h)[ relocator.cpp](http://github.com/Summeli/gpSP4Symbian/blob/master/src/relocator.cpp) and [relocator\_glue.S](http://github.com/Summeli/gpSP4Symbian/blob/master/src/relocator_glue.s)  
 First you’ll have to relocate your process on the user area in the Symbian. The user local data area is between 0x04000000-0x38000000, see the[ Symbian OS memory map](http://developer.symbian.org/wiki/index.php/Symbian_OS_Internals/7._Memory_Models#Memory_map_2).I’m using 0x10000000 in this example.
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 #include "relocutils.h"
 int main(int argc, char** argv)
 {
-BEGIN_RELOCATED_CODE(0x10000000);
-// all code from the code section of this process is run in the specified address
-END_RELOCATED_CODE();
-// return to the original code section
+  BEGIN_RELOCATED_CODE(0x10000000);
+  // all code from the code section of this process is run in the specified address
+  END_RELOCATED_CODE();
+  // return to the original code section
 }
 ```
 
 The next step is to create a new memory chunk for the dynamic recompiler and move it close to the newly relocated code. The new code chunk has to be in 32Mb range from our process memory area.
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 void createDynamicMemoryArea()
 {
   TInt error = process.GetMemoryInfo( info );
@@ -88,7 +86,6 @@ TInt CreateChunkAt(TUint32 addr,TInt minsize, TInt maxsize )
 We have now transferred our process into new memory area, which means that our code section runs in different memory address now. However the code relocation didn’t affect to the data section at all. Therefore we must update all function pointers used from the dynamic side of the code.
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 TUint addr = &my_old_funck;
 ddr+=relocated_code_offset;
 generatejump(addr); generate immediate b/bl

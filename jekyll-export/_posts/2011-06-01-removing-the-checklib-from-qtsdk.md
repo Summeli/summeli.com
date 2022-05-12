@@ -17,6 +17,6 @@ tags:
     - QtSDK
 ---
 
-I think that I said enough about the checklib.exe in my [earlier post.](http://www.summeli.com/?p=2171) I just noticed that the checklib.exe is still fighting against my development in QtSDK 1.1 inside the Symbian^3 SDK.  
+I think that I said enough about the checklib.exe in my [earlier post.](/2171) I just noticed that the checklib.exe is still fighting against my development in QtSDK 1.1 inside the Symbian^3 SDK.  
 This time I decided to get rid of the checklib for good. I just created an empty textfile and renamed that into checklib.exe and then I overwrite the original checklib.exe at QtSDK\\Symbian\\SDKs\\Symbian3Qt473\\epoc32\\tools with the dummy checklib.exe I just created.  
 Works like a charm. Now back to development –&gt;

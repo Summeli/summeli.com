@@ -20,17 +20,20 @@ tags:
 
 It’s really hard to test the touch with N97, but at least the d-pad seems to be working better and start/select seem to be responding too 🙂  
 The project has now a [wikipage at github](http://wiki.github.com/Summeli/AntSnes). See the FAQ before asking any questions 🙂  
-**know issues:**
+
+### know issues:   
 
 - Audio doesn’t quite yet work
 
-<div><dl id="attachment_1338" style="width: 650px;"><dt>[![antsnes_0.7](http://www.summeli.com/wp-content/uploads/2009/10/antsnes_0.7.jpg "antsnes_0.7")](http://www.summeli.com/wp-content/uploads/2009/10/antsnes_0.7.jpg)</dt><dd>AntSnes for the 5th edition</dd></dl></div>  
-**Installation:**  
+![antsnes_0.7](/jekyll-export//wp-content/uploads/2009/10/antsnes_0.7.jpg)](/jekyll-export/wp-content/uploads/2009/10/antsnes_0.7.jpg)   
+AntSnes for the 5th edition
+
+### Installation:   
+
 Just download and install.  
-If you got an error “unable to install”, or “certificate error” you might be having problems with the certificate. See my other blog post about two common fixes for this. [Fixing self-signed certificate related problems](http://www.summeli.com/?p=932)  
-![](http://www.summeli.com/wp-includes/js/tinymce/plugins/wordpress/img/trans.gif "More...")  
-\[ad\]  
-**Download**:  
-Sis installation file for 5th edition: [ AntSnes\_v071.sis (16045 downloads) ](http://summeli.com/download/11252/ "Version 0.71")  
-The S60 3rd edition should still use the old [ AntSnes 0.63](http://www.summeli.com/?p=845) release  
+If you got an error “unable to install”, or “certificate error” you might be having problems with the certificate. See my other blog post about two common fixes for this. [Fixing self-signed certificate related problems](/932)  
+
+### Download:   
+Sis installation file for 5th edition: [ AntSnes\_v071.sis (16045 downloads) ](/jekyll-export/wp-content/uploads/dlm_uploads/2018/01/antsnes_071.sis)  
+The S60 3rd edition should still use the old [ AntSnes 0.63](/845) release  
 sources can be found from github: <http://github.com/Summeli/AntSnes>

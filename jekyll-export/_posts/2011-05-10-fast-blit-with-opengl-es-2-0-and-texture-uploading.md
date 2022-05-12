@@ -23,7 +23,6 @@ OpenGL ES 2.0 is fully shader based, which means you can’t draw any geometry w
 Setting up the OpenGL ES 2.0 pipeline.
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 void glBlitter::initializeGL ()
 {
     GLuint fragmentShader;
@@ -92,7 +91,6 @@ The actual drawing is done in the QGLWidget’s paintGL function. The OpenGL ES 
 Here’s my example of painGL and texture blitting.
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 void glBlitter::paintGL()
 {
    glClear( GL_COLOR_BUFFER_BIT );
@@ -115,4 +113,4 @@ void glBlitter::paintGL()
 }
 ```
 
-You can also download the whole glBlitter.cpp from here: [glBlitter.cpp](http://www.summeli.com/wp-content/uploads/2011/05/glBlitter.cpp)
+You can also download the whole glBlitter.cpp from here: [glBlitter.cpp](/jekyll-export/wp-content/uploads/2011/05/glBlitter.cpp)

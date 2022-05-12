@@ -30,9 +30,9 @@ TODO’s for 0.5 release:
 
 - Audio support. After many test cases I’m confident, that the phone performance is enough for sound emulation. There must be a bug in my port 🙁 I hope to find it for the next release.
 
-**Installation:**  
+### Installation:
 P.I.P.S dependency is gone, just download and install  
-**Video settings:**  
+### Video settings:  
 Video Renderers
 
 - DirectScreenAccess -Default, works in every phone
@@ -47,11 +47,10 @@ Screen Orientatuions:
 
 The Video settings modification takes effect, when AntSnes is started next time( a restart required).
 
-<div class="wp-caption alignnone" id="attachment_203" style="width: 310px">![](/wp-content/uploads/2009/01/n96_keys-300x198.jpg)N96 keymap
+[N96 keymap](/wp-content/uploads/2009/01/n96_keys-300x198.jpg)
 
-</div>**Key config**  
+### Key config 
 Start key config to configure keys. The multimediakeys are not supported in the key config, but you can use any normal keys in here.  
 Download:  
-Sis file: [antsnes\_v04.sis](http://www.summeli.com/wp-content/uploads/2009/02/antsnes_v04.sis)  
-\[ad\]  
-sources: [antsnes\_v04.zip](http://www.summeli.com/wp-content/uploads/2009/02/antsnes_v04.zip)
+Sis file: [antsnes\_v04.sis](/jekyll-export/wp-content/uploads/2009/02/antsnes_v04.sis)  
+sources: [antsnes\_v04.zip](/jekyll-export/wp-content/uploads/2009/02/antsnes_v04.zip)

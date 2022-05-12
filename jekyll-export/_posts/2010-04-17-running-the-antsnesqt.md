@@ -18,4 +18,5 @@ tags:
 
 I have been working with the new Qt UI that I’m going to use with my all emus in the future. The AntSnes Qt is quite close to be ready for first beta release, and the gpsp emu is on pretty good shape too. Here’s a short video of the new AntSnesQt running on my N97.  
 <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" loading="lazy" src="https://www.youtube.com/embed/uNgq4DFXJC0" width="560"></iframe>  
-You can read my AntSnes qt development posts at <http://www.summeli.com/?tag=antsnesqtdev>
+
+You can read my AntSnes qt development posts at [AntSnesQt Dev](/tags/antsnesqtdev)

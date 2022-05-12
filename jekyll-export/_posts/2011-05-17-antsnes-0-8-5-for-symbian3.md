@@ -18,8 +18,9 @@ tags:
 ---
 
 AtnSnes is Snes9x emulator for Symbian. It is actually based on [DrPocketSNES](http://reesy.gp32x.de/DrPocketSnes.html "DrPocketSNES") version 6.4.4, which in turn is based on snes9x 1.39  
-The new AntSnes comes with multitouch and with new transparent keys. You’ll need a Symbian^3 based phone to run this (N8, C7, E7 etc..). The old S60 5th edition is not supported by this version anymore. S60 5th edition users should use [AntSnesQt 0.7](http://www.summeli.com/?p=2386)  
-**What’s new**
+The new AntSnes comes with multitouch and with new transparent keys. You’ll need a Symbian^3 based phone to run this (N8, C7, E7 etc..). The old S60 5th edition is not supported by this version anymore. S60 5th edition users should use [AntSnesQt 0.7](/2386)  
+
+### What’s new   
 
 - You can now adjust the alpha channel for keys
 - alpha channel for keys is now configured at video section (not in controls panel)
@@ -29,7 +30,7 @@ The new AntSnes comes with multitouch and with new transparent keys. You’ll ne
 - Fine tuned the onscreen buttons a bit. I think that they work a bit better now…
 - standalone package removed
 
-**Known issues:**
+### Known issues:   
 
 - Mounted shares(Dropbox etc.) breaks the filemanger, so do not use mounted shares.
 - The volume control slider works only if you drag it into new position (tapping a new level doesn’t work)
@@ -39,8 +40,9 @@ The new AntSnes comes with multitouch and with new transparent keys. You’ll ne
 Just download and install. The installer contains a smartinstaller which will download and install Qt 4.7.3 for you if you don’t have it yet.  
   
 **Download:**  
-Download the AntSnes 0.8.5 with the smart-installer: [ AntSnes v 0.8.5 (18429 downloads) ](http://summeli.com/download/11274/ "Version 0.8.5")  
+Download the AntSnes 0.8.5 with the smart-installer: [ AntSnes v 0.8.5 (18429 downloads) ](/jekyll-export/wp-content/uploads/dlm_uploads/2018/01/AntSnes_v085.sis)  
 Sources are available on Github: <http://github.com/Summeli/AntSnes>  
-**Read this before posting comments:**
+
+### Read this before posting comments:   
 
 - Do NOT Ask where to find ROMs / Bios. Asking about these will just get you banned!

@@ -18,4 +18,4 @@ tags:
     - AntSnes
 ---
 
-The certificate in the last[ AntSnes 0.63 r](http://www.summeli.com/?p=845)elease got old, so I updated the certificates. The sis files should work again, cheers!
+The certificate in the last[ AntSnes 0.63 r](/845)elease got old, so I updated the certificates. The sis files should work again, cheers!

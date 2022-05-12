@@ -23,22 +23,22 @@ tags:
 
 I received N950 from Nokia this monday, and I started porting the antsnes to Meego right away.  
 I decided to compile my emulators for Meego in the same way as I did for Symbian. I’m creating a static lib from the emulator core, and then I’m linking into that static lib from my UI code. The idea in here is that, I can make all kinds of special tricks when compiling the emulator core, and then use the standard Qt’s pro-file to compile the UI part. To accomplis this, I made a similar MinGW makefile for Madde, as I used with Symbian.  
-**INSTALLATION**  
+
+### INSTALLATION   
 Here are the instructions to use this environment.
 
 1. Install [MSYS](http://www.mingw.org/wiki/msys)
 2. Set environment variable MADDE\_PATH to point into your Madde installation. It should point into it in msys format, for example /e/QtSDK/Madde
 
-<div>**BUILDING WITH THE MAKEFILE**  
+### BUILDING WITH THE MAKEFILE     
 You’ll need two files: Makefile and config.mk in***myapp/gms*** path. You should also make folders ***myapp/gms/dist/gcce*** and***myapp/gms/obj/gcce*** .  
 After all these done, you could change your working directory into the build home by “***cd /c/myapp/gms***“. Then use the following commands to build. - “***make debug***” will do the debug build,
 - **“make release”** will do the release build
 - **“make clean”** will do the clean
 
-<div></div>A sample of config.mk is shown on below. The syntax is pretty easy to undertand, no big suprises in here
+A sample of config.mk is shown on below. The syntax is pretty easy to undertand, no big suprises in here
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 PROJECT_NAME = myproject
 USERINCLUDE = ../inc
 CXXSRCS = \
@@ -55,12 +55,11 @@ ASRCS = \
 And here’s a sample of a Makefile
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 MADDE_GCC_INSTALL_PATH =$(MADDE_PATH)/toolchains/arm-2009q3-67-arm-none-linux-gnueabi-i586-mingw32msvc/arm-2009q3-67/bin
 MADDE_INCLUDE = $(MADDE_PATH)/sysroots/harmattan-nokia-meego-arm-sysroot-1122-slim/usr/include
 PATH := $(MADDE_GCC_INSTALL_PATH):$(PATH)
 SYSINCLUDE = $(MADDE_PATH)/sysroots/harmattan-nokia-meego-arm-sysroot-1122-slim/usr/lib/gcc/arm-linux-gnueabi/4.4/include \
-             $(MADDE_INCLUDE)
+$(MADDE_INCLUDE)
 #Macros for compilation process
 GCC_MACRO = -D__GCCE__ -D__MARM__ -D__MARM_ARMV5__ -D__EABI__
 CPP_MACRO = -D__SUPPORT_CPP_EXCEPTIONS__
@@ -126,7 +125,5 @@ debug: check preGCC preDEBUG preALL $(BIN_TARGET)
 release: check preGCC preREL preALL $(BIN_TARGET)
 ```
 
-**DEBUGGING**  
+### DEBUGGING     
 The QtCreator seems to be able to find the code without any help, so no special tricks required in here.
-
-</div>

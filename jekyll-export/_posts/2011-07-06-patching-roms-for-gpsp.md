@@ -16,7 +16,7 @@ tags:
     - gpsp
 ---
 
-**Patching unworking ROMs for gpSP**  
+### Patching unworking ROMs for gpSP     
 You can get at least Super Mario Advance 4 and Mario and Luigi Superstar Saga (crashes often if you don’t mute the sound) are working with EZ4 GBA ROM Patcher utility. Change Flash\_type and 64kb rom size. You can download the EZ4 tool from <http://www.ezflash.cn/software.htm#ez4>  
 I’m pretty sure that the rom patcher utility can help you with some other ROMs too.  
 You can also update the gpSP compatiblity lists with the games that work with these patch and make a comment about the patch with the patcher utility  

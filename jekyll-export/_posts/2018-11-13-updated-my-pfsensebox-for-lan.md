@@ -20,4 +20,4 @@ Update to my previous post [](https://summeli.com/11741/)<https://summeli.com/11
 
 I added a new WAN port for my pfSensebox. Now we can have a mobile 4G connection shared into LAN from all three Finnish networks (DNA, Telia, Elisa). This is pretty rad.
 
-<figure class="wp-block-image">![](/wp-content/uploads/2018/11/lan_network.png)</figure>
+![](/jekyll-export/wp-content/uploads/2018/11/lan_network.png)

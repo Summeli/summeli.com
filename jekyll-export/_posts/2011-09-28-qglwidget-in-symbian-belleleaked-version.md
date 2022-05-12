@@ -19,7 +19,6 @@ Here’s the problem: I implemented the blit in QGLWidget’s paintEvent(QPaintE
 Currently I’m only using the QPainter for the actual blit. Like this:
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 QPainter painter;
 painter.begin(this);
 //.... do the painting

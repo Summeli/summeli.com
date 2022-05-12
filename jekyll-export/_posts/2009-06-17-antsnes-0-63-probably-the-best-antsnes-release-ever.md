@@ -53,10 +53,11 @@ Thanks for the localization goes to following persons:
 
 Did you want to make translation for your own native language, but missed AntSnes release 0.6? Don’t worry, you’ll get a new chance later when I’m making a port for the S60 5th edition.  
   
-**Installation:**  
+### Installation: 
 Just download and install.  
-If you got an error “unable to install”, or “certificate error” you might be having problems with the certificate. See my other blog post about two common fixes for this. [Fixing self-signed certificate related problems](http://www.summeli.com/?p=932)  
-**Video settings:**  
+If you got an error “unable to install”, or “certificate error” you might be having problems with the certificate. See my other blog post about two common fixes for this. [Fixing self-signed certificate related problems](/932)  
+
+### Video settings: 
 Video Renderers: A restart is required after video renderer has been changed
 
 - DirectScreenAccess -Default, works in every phone
@@ -80,23 +81,25 @@ Show FPS:
 
 The Video settings modification takes effect, when AntSnes is started next time( a restart required).
 
-<div><dl id="attachment_203" style="width: 310px;"><dt><div class="wp-caption alignnone" id="attachment_203" style="width: 310px">![](/wp-content/uploads/2009/01/n96_keys-300x198.jpg)N96 keymap
+![N96 keymap](/jekyll-export/wp-content/uploads/2009/01/n96_keys-300x198.jpg)
 
-</div></dt><dd>N96 keymap</dd></dl></div>**Audio Settings:**   
+### Audio Settings: 
 The Audio isn’t probably working. If you get it working, please post you config, phone and the game 🙂  
 Enable Audio: On/Off  
 Sample Rate: 8000Hz, 11025Hz, 16000Hz, 22050Hz and 44100Hz can be chosen  
 Stereo: On/Off  
 Volume: Adjust volume  
 Enable SpeedHack: On/Off. The SpeedHack makes audio render a bit faster, but it might cause some errors with some roms.  
-**Key config**  
-Start key config to configure keys. The multimediakeys are not supported in the key config, but you can use any normal keys in here.  
-Download:  
-AntSnes English only: [ AntSnes\_v063\_en.sis (35635 downloads) ](http://summeli.com/download/11246/ "Version 0.63")  
-AntSnes with localization: [ AntSnes\_v063.sis (8720 downloads) ](http://summeli.com/download/11244/ "Version  0.63")  
-\[ad\]  
+
+### Key config
+Start key config to configure keys. The multimediakeys are not supported in the key config, but you can use any normal keys in here. 
+ 
+### Download:  
+AntSnes English only: [ AntSnes\_v063\_en.sis (35635 downloads) ](/jekyll-export/wp-content/uploads/2009/10/AntSnes_v063_en.sis)  
+AntSnes with localization: [ AntSnes\_v063.sis (8720 downloads) ](/jekyll-export/wp-content/uploads/2009/10/AntSnes_v063.sis)  
+
 sources: [AntSnes\_src\_v0.63.zip](http://www.summeli.com/wp-content/uploads/2009/06/AntSnes_src_v0.63.zip)  
-**Update:** The AntSnes is not currently working with 5th edition devices, but the next release will be for the 5th edition. In the meanwhile see my blog post[ The future of AntSnes](http://www.summeli.com/?p=842)  
+**Update:** The AntSnes is not currently working with 5th edition devices, but the next release will be for the 5th edition. In the meanwhile see my blog post[ The future of AntSnes](/842)  
 **Compability:**  
 Here it is my new testing rom for your antsnes 0.6.3:  
 1\. alien vs predator  

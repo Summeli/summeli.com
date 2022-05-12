@@ -24,7 +24,6 @@ The whole blit is taking less than 6ms, so it’s good enough for my emulator po
 Here’s an example from the AntSnes how to blit with QGLWidget and paintevent.
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 void AntSnesQt::blit(int width, int height)
 {
     if (buf != NULL)

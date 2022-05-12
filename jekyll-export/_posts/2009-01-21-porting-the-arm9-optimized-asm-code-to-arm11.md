@@ -16,11 +16,10 @@ tags:
     - assembler
 ---
 
-This is just a short post about my modifications to the Snes9x assembly sources. You can find the sources at the 0.1[ release post.](http://www.summeli.com/?p=166) Actually there was only one modification required, which I will share with you. It might help others to port fast assembly code to ARM11 processors.  
+This is just a short post about my modifications to the Snes9x assembly sources. You can find the sources at the 0.1[ release post.](/166) Actually there was only one modification required, which I will share with you. It might help others to port fast assembly code to ARM11 processors.  
 ARM9 optimized source:
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 STMFD    R13!,{PC} @ Push return address
 MOV    R1,#0
 B    myASMFunc
@@ -30,7 +29,6 @@ B   arm9ReturnPoint
 and the function return in myASMFuc with code
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 LDMFD        R13!,{PC}
 ```
 
@@ -52,7 +50,6 @@ Usually the assembly code could be even more optimized for ARM11 than ARM9, sinc
 It was really hard to get the stack properly aligned with GCCE and symbian. The solution was to give gcce a zero optimization flag -O0 and then manually give all optimization flags. I know. It looks stupid, but it worked…
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 OPTION GCCE -march=armv5t -O0 -fexpensive-optimizations -finline -finline-function -ffast-math -msoft-float -falign-functions=32 -falign-loops -falign-labels -falign-jumps -fomit-frame-pointer
 ```
 

@@ -16,12 +16,11 @@ tags:
 
 Azure might just put your app into idle state if it’s inactive for too long. The always on feature is available only for higher app plans.
 
-<figure class="wp-block-image size-large">![](/wp-content/uploads/2021/03/basic_config.png)</figure>However the same functionality can be achieved by just making http calls with cloudflare workers.
+![](/jekyll-export/wp-content/uploads/2021/03/basic_config.png)However the same functionality can be achieved by just making http calls with cloudflare workers.
 
 Let’s just create a simple listener:
 
-<div class="wp-block-syntaxhighlighter-code ">```
-<pre class="brush: plain; title: ; notranslate" title="">
+```
 addEventListener("scheduled", event => {
   event.waitUntil(handleScheduled(event))
 })
@@ -31,6 +30,6 @@ async function handleScheduled(event) {
 }
 ```
 
-</div>Ant then we just add a cron trigger to launch the fetch request every 30 minutes.
+And then we just add a cron trigger to launch the fetch request every 30 minutes.
 
-<figure class="wp-block-image size-large">![](/wp-content/uploads/2021/03/cron_trigger-1024x239.png)</figure>
+[](/jekyll-export/wp-content/uploads/2021/03/cron_trigger-1024x239.png)

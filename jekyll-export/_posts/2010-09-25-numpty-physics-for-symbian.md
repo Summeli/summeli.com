@@ -21,7 +21,7 @@ tags:
 
 The fabulous [NumptyPhysics](http://numptyphysics.garage.maemo.org/) game by Tim Edmonds for Linux and Internet Tablets. It was also one of my favo0rite games on N810, and now it’s ported to your Symbian^1 phones 🙂  
 Numpty Physics is a drawing puzzle game in the spirit (and style?) of [Crayon Physics](http://kloonigames.com/crayon) using the same excellent [Box2D engine](http://www.box2d.org/).  
-**Keys**:
+### Keys
 
 - stylus/finger – draw a new stroke
 - tap proximity sensor – undo last stroke
@@ -29,20 +29,21 @@ Numpty Physics is a drawing puzzle game in the spirit (and style?) of [Crayon Ph
 - volume down – reset level to initial state
 - long tap left/right corners to get extra menu options (you really don’t need these)
 
-<div class="wp-caption aligncenter" id="attachment_1930" style="width: 650px">[![](http://www.summeli.com/wp-content/uploads/2010/09/numptyphysics.jpg "numptyphysics")](http://www.summeli.com/wp-content/uploads/2010/09/numptyphysics.jpg)numptyphysics start up screen
+![](/jekyll-export/wp-content/uploads/2010/09/numptyphysics.jpg)
 
-</div>  
   
-**Installation**  
-\[ad\]  
-Download the installation file: [ Numpty Physics (13471 downloads) ](http://summeli.com/download/11264/ "Version 0.2")  
-**Adding more levels**  
+### Installation   
+
+Download the installation file: [ Numpty Physics (13471 downloads) ](/jekyll-export/wp-content/uploads/downloads/2010/09/NumptyPhysics.sis)  
+
+### Adding more levels   
 You can download additional levels from [http://numptyphysics.garage.maemo.org/levels](http://numptyphysics.garage.maemo.org/levels/)/ and then copying them into installation drive:\\data\\numptyphysics.  
-**FAQ:**  
+
+### FAQ:     
 How to Close it? 1. Press volume up.
 2. Press the cross in the upper right corner.
 
-**License:**  
+### License:   
 NumptyPhysics  
 Copyright (C) 2008 Tim Edmonds  
 This program is free software; you can redistribute it and/or  
@@ -53,12 +54,14 @@ This program is distributed in the hope that it will be useful, but
 WITHOUT ANY WARRANTY; without even the implied warranty of  
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
 See the [GNU General Public License](http://www.gnu.org/copyleft/gpl.html) for more details.  
-**Port information:**  
+
+### Port information:**  
 I’ve made some minor changes that change some of the platform-specific behavior and compiled it to run under Symbian OS using SDL port by [AnoterGuest](http://www.embeddev.se/agroot/).  
-**Source code:**  
+
+### Source code:   
 You can download sources of my port from my[ Numpty Physics GitHub page](http://github.com/Summeli/numptyphysics-symbian). I also made some minor changes into the Symbian SDL port, which you can find from my [SDL Page at GitHub](http://github.com/Summeli/SDL_Symbian).
 
-<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">## License
+License
 
 NumptyPhysics  
 Copyright (C) 2008 Tim Edmonds  
@@ -70,5 +73,3 @@ This program is distributed in the hope that it will be useful, but
 WITHOUT ANY WARRANTY; without even the implied warranty of  
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
 See the [GNU General Public License](http://www.gnu.org/copyleft/gpl.html) for more details.
-
-</div>

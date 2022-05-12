@@ -31,17 +31,19 @@ I installed the good old Windows XP inside a virtual box, and then I installed
 1. [Visual Studio 2008](http://www.microsoft.com/visualstudio/en-us/products/2008-editions) with [latest service pack](http://www.microsoft.com/download/en/details.aspx?id=10986) and hotfixes.
 2. [Windows Mobile 6 Professional SDK Refresh](http://www.microsoft.com/download/en/details.aspx?id=6135).
 
-<div>After everything has been installed we can start the development by creating a new static library.</div><div>#### Creating a static library
+After everything has been installed we can start the development by creating a new static library.
+
+#### Creating a static library    
 
 To create a static library you should create a new project (file/new project). Choose Visual c++ / Smart Device / **Win32 Smart Device Project**. Then choose Application settings, and choose application type, and use “static library”
 
-</div>#### Precompiler settings
+#### Precompiler settings
 
 You can find the Precompiler settings in Visual studio under **project/settings/c/c++/Preprocessor tab**.
 
-<div class="wp-caption aligncenter" id="attachment_2829" style="width: 310px">[![](http://www.summeli.com/wp-content/uploads/2012/01/vs_preprocessor-300x207.png "project/settings/c/c")](http://www.summeli.com/wp-content/uploads/2012/01/vs_preprocessor.png)project/settings/c/c
+[![settings](/jekyll-export/wp-content/uploads/2012/01/vs_preprocessor-300x207.png)](/jekyll-export/wp-content/uploads/2012/01/vs_preprocessor.png)
 
-</div>#### Precompiled headers
+#### Precompiled headers
 
 I had not used the precompiled headers before, so this was a new feature for me. I recommend reading Wikipedia’s [Precompiled header](http://en.wikipedia.org/wiki/Precompiled_header) article for more details how it works etc. Precompiled header is basically a big header file compiled from multiple header files. It’s a nice idea, and it could reduce the build time, but sadly it seems to totally mess up my static lib project, so I decided to live without it.  
 The precompiled header can be turned on/off under **project/settings/c/c++/Precompiled Headers**
@@ -55,9 +57,9 @@ To create a COM DLL you should create a new project (file/new project). Choose V
 First you must add a reference into you project ( the COM project in my case). Right click the project, and choose “References..”. And the next dialog you can click “Add Reference” and add your new static library project as a reference.  
 Next add the static library as a project dependency by right clicking the project and choose “project dependencies” and you can choose the new static libraries as dependencies to your project.
 
-<div class="wp-caption aligncenter" id="attachment_2830" style="width: 310px">[![](http://www.summeli.com/wp-content/uploads/2012/01/references-300x205.png "project references")](http://www.summeli.com/wp-content/uploads/2012/01/references.png)project references
+[![project references](/jekyll-export/wp-content/uploads/2012/01/references-300x205.png)](/jekyll-export/wp-content/uploads/2012/01/references.png)
 
-</div>#### Adding Include Dirs
+#### Adding Include Dirs
 
 You can add Include Dirs into the project under **project/settings/c/c++/General**
 

@@ -17,16 +17,17 @@ categories:
 The Proximity sensor is usually used to detect when the phone is near of the user’s ear, so the display can be turned off when speaking into the phone. The Symbian OS has an API for the proximity sensor, so it can also be used as a button.  
 My experience from the proximity sensor suggest that you shouldn’t use it when you are needing a high resolution refresh rates for the button( action games), since the API gives updates only few times in a second.
 
-<div class="wp-caption aligncenter" id="attachment_1953" style="width: 360px">[![](http://www.summeli.com/wp-content/uploads/2010/09/5230.jpg "prox_sensor")](http://www.summeli.com/wp-content/uploads/2010/09/5230.jpg)The Proximity sensor is located near the ear piece on the phone
+![](/jekyll-export/wp-content/uploads/2010/09/5230.jpg)   
 
-</div>**Using the API**
+The Proximity sensor is located near the ear piece on the phone
+
+### Using the API   
 
 The Proximity sensor can be used via sensor framework. See this forum.nokia example[ http://wiki.forum.nokia.com/index.php/S60\_Sensor\_Framework](http://wiki.forum.nokia.com/index.php/S60_Sensor_Framework) )
 
 Initializing the proximity sensor can be done with following snippet
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
     CSensrvChannelFinder* SensrvChannelFinder = CSensrvChannelFinder::NewLC();
     RSensrvChannelInfoList ChannelInfoList;
     CleanupClosePushL( ChannelInfoList );
@@ -44,14 +45,12 @@ Initializing the proximity sensor can be done with following snippet
 After the proximity sensor channel has been opened into iSensrvChannel it can be read with timer and calling
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 iSensrvChannel->StartDataListeningL( this, 1,1,0);
 ```
 
 After this the data is being received trough MSensrvDataListener interface class via DataReceived function:
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 void ProximityButton::DataReceived( CSensrvChannel& aChannel, TInt aCount, TInt aDataLost )
 	{
     if ( aChannel.GetChannelInfo().iChannelType ==  KSensrvChannelTypeIdProximityMonitor )

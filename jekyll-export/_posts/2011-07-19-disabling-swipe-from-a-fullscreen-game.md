@@ -18,10 +18,10 @@ tags:
 ---
 
 The swipe is really annoying feature in fullscreen gaming (antsnes for example). Instead of controlling the game you might end up swiping the game into the background, which is not cool. Luckily the swipe can be disabled quite easily from QWidget based classes.  
+
 Here’s how you can disable the swipe:
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 void disableSwipe()
 {
     QWidget * activeWindow = QApplication::activeWindow();
@@ -42,7 +42,6 @@ void disableSwipe()
 And here’s an example of enabling it:
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 void enableSwipe()
 {
     QWidget * activeWindow = QApplication::activeWindow();

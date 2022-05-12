@@ -22,11 +22,11 @@ The Qt’s default style tries to look as much your original S60 theme as possib
 The good news is that you can write your own style, and use it in your own application.  
 Here’s a “before image” with my Symbian foundation default theme and AntSnes:
 
-<div class="mceTemp">![AntSnes with Symbian default theme](/wp-content/uploads/2010/04/antsnes_default_theme-300x169.jpg)
+![AntSnes with Symbian default theme](/jekyll-export/wp-content/uploads/2010/04/antsnes_default_theme-300x169.jpg)
 
 The default theme has a lot of problems. For example the default blue color is used, when Qt doesn’t know what color to use. The donw arrow is also way too big in the default Qt theme.
 
-</div>![](/wp-content/uploads/2010/04/antsnes_with_style-300x169.jpg)
+![](/jekyll-export/wp-content/uploads/2010/04/antsnes_with_style-300x169.jpg)
 
 AntSnes with style sheet
 
@@ -41,7 +41,6 @@ Creating the style sheets is also very easy, since the Qt Editor will update all
 I could make different style sheet for different environments. For example I could have different styles for Maemo and for Symbian. Here’s a short code clip how to load and set a style sheet to application.
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
   QFile file(":/style/summelistyle.qss");
     if(!file.open(QFile::ReadOnly))
         {
@@ -49,6 +48,6 @@ I could make different style sheet for different environments. For example I cou
         }
     QString styleSheet = QLatin1String(file.readAll());
     qApp-&amp;amp;amp;gt;setStyleSheet(styleSheet);
-
-<p>The AntSnes is now pretty close to complete. I hope that I can post a youtube video soon, and also to make the first release.</p>
 ```
+
+The AntSnes is now pretty close to complete. I hope that I can post a youtube video soon, and also to make the first release.

@@ -24,7 +24,9 @@ I chose Azure, since I haven’t been using that before.
 
 First we must teach Azure about Symbian installer files, and debian packages. Go to your App Service in Azure Portal, and look for App Service Editor (Preview). Then we can edit web.config and add the new MIME types to the Azure.
 
-<figure class="wp-block-image size-large">![](/wp-content/uploads/2021/03/web_config.png)</figure>### MIME Types in WordPress
+![](/jekyll-export/wp-content/uploads/2021/03/web_config.png)
+
+### MIME Types in WordPress
 
 Then it’s time to set MIME types right in WordPress. I did this by installing the **WP Extra File Types** Plugin. And I added the file types in there.
 

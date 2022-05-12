@@ -20,16 +20,17 @@ pfsense is just newer version
 
 Here’s the upgraded network diagram:
 
-<figure class="wp-block-image size-large">![](/wp-content/uploads/2021/11/lan_network_updated-1.png)</figure>At times like these is pretty nice to have a blog to keep track of things to be done. My old[ multirouting post](https://summeli.com/11741/) still seems to be a good example how to do this.
+![](/jekyll-export/wp-content/uploads/2021/11/lan_network_updated-1.png) At times like these is pretty nice to have a blog to keep track of things to be done. My old[ multirouting post](https://summeli.com/11741/) still seems to be a good example how to do this.
 
 Lancache.net  
 The new version is being run by docker-compose.
-
+´´´
  $ git clone https://github.com/lancachenet/docker-compose lancache  
 ~ $ cd lancache  
 ~/lancache $ nano .env  
 ~/lancache $ sudo docker-compose up -d  
 \# =&gt; Configure your router to serve ONLY lancache-dns
+´´´
 
 Reading the caches:  
 tail -100f lancache/logs/access.log

@@ -32,7 +32,6 @@ I made some small modifications for my own purposes. Here are the instructions t
 1. install SVG2SVGConvertter. The installation file can be found under EPOCROOT\\S60tools\\svg2svgt\\installer\\
 2. The script should be executed from \\gms directory. The script also expects to have \\dist\\gcce and \\obj\\gcce directories under the gms directory, so you should also make these folders.
 3. The OS\_HRH part doesn’t seem to work in the defines.mk. I solved this my replacing the include statement in epoc32\\gcce\\gcce.h to ```
-    <pre class="brush: cpp; title: ; notranslate" title="">
     #if defined(__PRODUCT_INCLUDE__)
      #include <variant/Symbian_OS.hrh> //for MinGW
      //#include __PRODUCT_INCLUDE__ //quick hack
@@ -49,11 +48,10 @@ Know limitations:
 
 1. There is no build for help files, and the svg conversion seems to be a bit limited. However the shouldn’t be any major issues, if old buildchain is still used for some builds.
 
-Download the [makefile](http://www.summeli.com/wp-content/uploads/2009/04/makefile) and [defines.mk](http://www.summeli.com/wp-content/uploads/2009/04/defines.mk)  
+Download the [makefile](/jekyll-export/wp-content/uploads/2009/04/makefile) and [defines.mk](/jekyll-export/wp-content/uploads/2009/04/defines.mk)  
 a sample of config.mk is shown on below.
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 PROJECT_NAME = myproject
 TARGET_TYPE = EXE
 UID2 = 0

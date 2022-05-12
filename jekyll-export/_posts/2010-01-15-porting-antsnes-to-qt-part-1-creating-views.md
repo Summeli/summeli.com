@@ -25,7 +25,6 @@ The UI will made with two separate views. The emulation view, and the settings v
 Here’s an example how the app is started with the viewcontroller class.
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
@@ -38,7 +37,6 @@ int main(int argc, char *argv[])
 Let’s create two views at viewcontroller’s constructor
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 ViewController::ViewController()
 {
     emuView = new AntSnesQt();
@@ -51,7 +49,6 @@ ViewController::ViewController()
 An example how the ViewController is changing the current view:
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 ViewController::showSettings()
 {
 	emuView->hide();

@@ -22,7 +22,6 @@ The XML feed could be used for integrating a mobile client into the download-int
 Here’s an example of a donwload entry from the XML-feed.
 
 ```
-<pre class="brush: xml; title: ; notranslate" title="">
 <entry>
     <title>AntSnes_v071.sis</title>
     <version>0.71</version>
@@ -46,8 +45,7 @@ cat: category id, which should be returned.
 here’s an example request:
 
 ```
-<pre class="brush: xml; title: ; notranslate" title="">
 http://www.summeli.com/wp-content/plugins/downloadfeed/feed.php?i=2&n=3&cat=1
 ```
 
-As usual, this plugin is open source, and it can be downloaded from my github page [github.com/Summeli](https://github.com/Summeli)
+As usual, this plugin is open source, and it can be downloaded from my github page [github.com/Summeli/download-feed](https://github.com/Summeli/Download-Feed)

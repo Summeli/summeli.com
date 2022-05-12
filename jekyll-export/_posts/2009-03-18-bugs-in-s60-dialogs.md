@@ -20,7 +20,6 @@ tags:
 I found this when trying to get AntSnes remembering the last used directory. It was actually really simple and everything worked according to S60 documentation with N96, but N95-2 had some SW bugs on dialogs.
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 selected = AknCommonDialogs::RunSelectDlgLD(ptr,_L(E:\\SnesRoms\\),R_MEMORY_SELECTION_DIALOG, R_LOAD_ROM_DIALOG);
 ```
 
@@ -28,7 +27,6 @@ In N95-2 the code goes to the E root, like it wouldn’t find any roms under rom
 I also had some problems in the past with CAknNoteDialog and capturing the key that was pressed to dismissing the dialog. According to S60 docs it should have worked, but it didn’t. My solution was to create my own Dialog class for the key config. It’s really hacked together in few minutes, but it’s good enough for the purpose (it’s not going into any platform, but it does what is shoud :).
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 class CAntKeyDialog : public CAknNoteDialog
 {
 public:
@@ -83,7 +81,6 @@ TInt CAntKeyDialog::RunKeyDialogLD( const TDesC aText)
 Using the dialog class is pretty simple. The S60 documentation promised the CAknNoteDialog to work in this way too…
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 dialog = new (ELeave) CAntKeyDialog(CAknNoteDialog::ENoTone,CAknNoteDialog::ENoTimeout);
 iSettings.iScanKeyTable[11] = dialog->RunKeyDialogLD( *textResource);
 ```

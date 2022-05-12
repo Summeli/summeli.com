@@ -22,12 +22,13 @@ tags:
 I decided to build a two threaded application. The main thread is for the UI, and the worker thread if for the emulator. This makes all porting easier in general, since now we can have a UI thread to handle all rendering, key I/O etc, and run the emulator thread as worker thread, which can emit the new processed frames to the UI thread etc.  
 The Qt makes the threading extra easy:  
 In my application I just inherited the emulator controller class from QThread, then I just call start() to start the thread. The QThread will guarantee that all slots will be executed in the context of that QThread after start has been called.  
+
 Another nice trick is to use Qt::BlockingQueuedConnection as connection type when the signal must be prosessed before the emitting thread can continue.  
-I’m really excited that all this communication between threads was so easy. No mutexes, or semaphores were required this time at all 🙂  
+I’m really excited that all this communication between threads was so easy. No mutexes, or semaphores were required this time at all 🙂    
+
 Here’s some code snippets how the threading was actually implemented.
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 //starting the thread
 void QSnesController::Start()
 {

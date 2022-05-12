@@ -22,6 +22,6 @@ The fist working AntSnes build for Meego is ready and it’s running on my N950.
 <iframe frameborder="0" height="349" loading="lazy" src="https://www.youtube.com/embed/MzUzdp44hLk" width="560"></iframe>  
 I’ll add this to the public meego repository when I have some more time (build.pub.meego.com). In the mean while you can download it from here.  
   
-Download AntSnes debian package: [ AntSnes v 0.8.6 for Meego (5904 downloads) ](http://summeli.com/download/11284/ "Version 0.8.6")  
-\[ad\]  
+Download AntSnes debian package: [ AntSnes v 0.8.6 for Meego (5904 downloads) ](/jekyll-export/wp-content/uploads/downloads/2011/07/antsnes_0_8_6_armel.deb)  
+
 Sources available on github: <https://github.com/Summeli/AntSnes/tree/Meego>

@@ -27,15 +27,16 @@ The project has now a [wikipage at github](http://wiki.github.com/Summeli/AntSne
 
 - Audio doesn’t quite yet work
 
-<div class="wp-caption aligncenter" id="attachment_1338" style="width: 650px">[![antsnes_0.7](http://www.summeli.com/wp-content/uploads/2009/10/antsnes_0.7.jpg "antsnes_0.7")](http://www.summeli.com/wp-content/uploads/2009/10/antsnes_0.7.jpg)AntSnes for the 5th edition
+![antsnes_0.7](/jekyll-export/wp-content/uploads/2009/10/antsnes_0.7.jpg)](/jekyll-export/wp-content/uploads/2009/10/antsnes_0.7.jpg)
 
-</div>  
-**Installation:**  
+AntSnes for the 5th edition
+
+
+### Installation:    
 Just download and install.  
-If you got an error “unable to install”, or “certificate error” you might be having problems with the certificate. See my other blog post about two common fixes for this. [Fixing self-signed certificate related problems](http://www.summeli.com/?p=932)  
+If you got an error “unable to install”, or “certificate error” you might be having problems with the certificate. See my other blog post about two common fixes for this. [Fixing self-signed certificate related problems](/932)  
   
-\[ad\]  
-**Download**:  
-Sis installation file for 5th edition: [ AntSnes\_v070.sis (5322 downloads) ](http://summeli.com/download/11250/ "Version 0.70")  
-The S60 3rd edition should still use the old [ AntSnes 0.63](http://www.summeli.com/?p=845) release  
+### Download:     
+Sis installation file for 5th edition: [ AntSnes\_v070.sis (5322 downloads) ](/jekyll-export/wp-content/uploads/2009/10/AntSnes_v0.70.sis)  
+The S60 3rd edition should still use the old [ AntSnes 0.63](/845) release  
 sources can be found from github: <http://github.com/Summeli/AntSnes>

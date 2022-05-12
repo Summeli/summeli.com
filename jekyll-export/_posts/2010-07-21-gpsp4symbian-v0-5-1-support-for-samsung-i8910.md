@@ -21,9 +21,9 @@ the gpSP is a gameboy advance emulator originally written by Exophase. And now i
 This is a small patch for the previous version, so no real need to update for Nokia users. However Samsung users might want to test this one 😉  
 I have been a bit lazy in gpsp development. I’m currently waiting for more stuff from Qt Mobility project. The current version give only 8khz mono audio, while I would like to have at least 22100hz stereo. I still might implement the audio with standard Symbian API’s. I just would like to wait for the Qt API stuff, since then I would keep the maximum compatibility to Symbian^4 and even to the upcoming Meego. Bot of them should fully support all Qt mobility APIs according to Nokia.
 
-<div class="wp-caption aligncenter" id="attachment_1791" style="width: 394px">[![](http://www.summeli.com/wp-content/uploads/2010/07/gpsp_051.jpg "gpsp_051")](http://www.summeli.com/wp-content/uploads/2010/07/gpsp_051.jpg)gpSP mainview
+![](/jekyll-export/wp-content/uploads/2010/07/gpsp_051.jpg)
 
-</div><div><dl id="attachment_1679"><dd> </dd></dl></div>**What’s new:**
+### What’s new:   
 
 - Support for Samsung i8910
 - Polished mainview
@@ -31,7 +31,7 @@ I have been a bit lazy in gpsp development. I’m currently waiting for more stu
 - few other minor bugs fixes
 
   
-**know issues:**
+### know issues:   
 
 - It’s a gpsp port, so see the gpsp compatibility list before complaining about non-working ROMs
 - Audio is not yet implemented (I’m waiting for new Qt release with QAudio implementation)
@@ -41,7 +41,7 @@ I have been a bit lazy in gpsp development. I’m currently waiting for more stu
 - The ZIP files seem to be eating quite a lot of RAM, so If ROM doesn’t work, try extracting it.
 - Samsung blit fails when “keep aspect ratio” is ticked off
 
-**ZIP limitations**
+### ZIP limitations**
 
 - WinZip
 - Roms ziped in the WinZip Maximum (PPMd) format WILL NOT work.
@@ -52,8 +52,7 @@ I have been a bit lazy in gpsp development. I’m currently waiting for more stu
 - Roms ziped in the WinZip Super Fast format WILL run.
 - Roms ziped in the WinZip None format WILL run.
 
-![](http://www.summeli.com/wp-includes/js/tinymce/plugins/wordpress/img/trans.gif "More...")  
-**Installation:**  
+### Installation:**  
 Same process as with the AntSnes:  
 1\. First Install Qt 4.6.3 binaries into your phone
 
@@ -75,14 +74,18 @@ You must give them
 
 And then the symbiansigned should email you the signed gpsp4Symbianfor your phone. This package will be installable ONLY on your phone. This procedure works for all Symbian S60V5 Phones. I had also to change to date on the phone into yesterday to get it working..  
 The alternative method is to hack your phone! You can find pretty good instructions from [MameXM download site.](https://sites.google.com/site/mamexm/Home/download-1-03) (scroll to the bottom of page: Signing &amp; Installing).  
-\[ad\]  
-**Download:**  
-Download the gpsp4Symbian: [ gpsp4Symbian\_v0.5 (85566 downloads) ](http://summeli.com/download/11260/ "Version 0.5.1")  
+
+### Download:   
+Download the gpsp4Symbian: [ gpsp4Symbian\_v0.5 (85566 downloads) ](/jekyll-export/wp-content/uploads/downloads/2010/07/gpsp4Symbian_v051.sis)  
 Sources are available on Github:[ https://github.com/Summeli/gpSP4Cute](https://github.com/Summeli/gpSP4Cute)[](http://github.com/Summeli/gpSP4Symbian)  
-**The Bios:**  
+
+### The Bios:  
 Remember to set the correct bios before loading ROMs. Make sure to get an authentic one , it’ll be exactly 16384 bytes large and should have the following md5sum “a860e8c0b6d573d191e4ec7db1b1e4f6”. The Bios extension should be .bin  
-**Project Wiki page:**  
+
+### Project Wiki page:   
 <http://wiki.github.com/Summeli/gpSP4Symbian/>  
-**Read this before posting comments:**
+
+
+### Read this before posting comments:   
 
 - Do NOT Ask where to find ROMs / Bios. Asking about these will just get you banned!

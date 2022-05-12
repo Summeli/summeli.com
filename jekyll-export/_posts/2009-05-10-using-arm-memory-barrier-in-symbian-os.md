@@ -36,7 +36,6 @@ The [ARM9 reference manual](http://www.atmel.com/dyn/resources/prod_documents/ar
 In Symbian OS the Kernel should take care about ICache invalidation. The Symbian has User library for user side interaction with the Kernel. If we want to generate our own code and run it in specific memory are, we have to first tell to the kernel to threat this area as code. The code example for doing this is below.
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 RChunk codechunk;
 TInt error = codechunk.CreateLocalCode(codechunk_size,codechunk_siz);
 void* codechunk_ptr = codechunk.Base();
@@ -45,7 +44,6 @@ void* codechunk_ptr = codechunk.Base();
 Now the codechunk is created. The ARM documentation told that ICache must be invalidated before executing the code. The Symbian should take care for invalidating the ICache, when IMB\_Range is called.
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 void CLEAR_INSN_CACHE(void* code, int size)
 {
 User::IMB_Range( code, (void*)(code + size));

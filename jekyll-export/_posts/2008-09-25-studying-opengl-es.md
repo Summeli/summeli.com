@@ -14,7 +14,7 @@ tags:
     - 'OpenGL ES'
 ---
 
-[![](http://www.summeli.com/wp-content/uploads/2008/09/books-300x225.jpg "books")](http://www.summeli.com/wp-content/uploads/2008/09/books.jpg)
+![books](/jekyll-export//wp-content/uploads/2008/09/books-300x225.jpg)
 
 I have purchased two books about OpenGL ES. The one on the right “OpenGL ES game development” I bought several years ago. Its primary focused for an average developer, who wants to learn OpenGL ES and has OpenGL background. <span> </span>The book has chapter about fixed point math and other limitations to deal with mobile devices. So it’s really not ideal for a mobile developer, who want’s to learn OpenGL ES. It’s a good book about limitations of mobile platform, but not really good book for learning to develop for OpenGL ES.
 

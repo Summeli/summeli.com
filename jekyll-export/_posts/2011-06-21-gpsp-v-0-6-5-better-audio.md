@@ -16,17 +16,17 @@ tags:
     - gpsp
 ---
 
-the gpSP is a gameboy advance emulator originally written by Exophase. And now it’s ported to the Symbian OS! This version is only for S60 5th edition. Symbian^3 users should use [gpsp 0.7 for Symbian^3 ](http://www.summeli.com/?p=2520)  
-**What’s new:**
+the gpSP is a gameboy advance emulator originally written by Exophase. And now it’s ported to the Symbian OS! This version is only for S60 5th edition. Symbian^3 users should use [gpsp 0.7 for Symbian^3 ](/2520)  
+
+### What’s new:   
 
 - Better Audio!
 - save/load states is now working
 
-<div class="wp-caption aligncenter" style="width: 380px">[![](http://www.summeli.com/wp-content/uploads/2010/07/gpsp_051.jpg "gpsp_051")](http://www.summeli.com/wp-content/uploads/2010/07/gpsp_051.jpg)gpSP mainview
-
-</div>  
+![](/jekyll-export/wp-content/uploads/2010/07/gpsp_051.jpg)
    
-**know issues:**- not working on Symbian^3 based devices such as N8
+### know issues:   
+- not working on Symbian^3 based devices such as N8
 - It’s a gpsp port, so see the gpsp compatibility list before complaining about non-working ROMs
 - the emulator crashes if you try to load a ROM without setting the BIOS
 - there are some limitations in the ZIP file support, so maybe you have to upzipt the ROMs
@@ -34,7 +34,7 @@ the gpSP is a gameboy advance emulator originally written by Exophase. And now i
 - Samsung blit fails when “keep aspect ratio” is ticked off
 - N97 CFW: You can not use touch + call buttons at the same time with this firmware.
 
-**ZIP limitations**
+### ZIP limitations    
 
 - WinZip
 - Roms ziped in the WinZip Maximum (PPMd) format WILL NOT work.
@@ -46,7 +46,7 @@ the gpSP is a gameboy advance emulator originally written by Exophase. And now i
 - Roms ziped in the WinZip None format WILL run.
 
   
-**Installation:**  
+### Installation:   
 Same process as with the AntSnes:  
 1\. First Install Qt 4.6.3 binaries into your phone
 
@@ -66,17 +66,19 @@ Step 2. Sign the sis-file by yourself with the symbian signed web UI.
 
 And then the symbiansigned should email you the signed gpsp4Symbianfor your phone. This package will be installable ONLY on your phone. This procedure works for all Symbian S60V5 Phones. I had also to change to date on the phone into yesterday to get it working..  
 The alternative method is to hack your phone! You can find pretty good instructions from [MameXM download site.](https://sites.google.com/site/mamexm/Home/download-1-03) (scroll to the bottom of page: Signing &amp; Installing).  
-\[ad\]  
-**Download:**  
-Download the gpsp4Symbian: [ gpsp\_v065 (56818 downloads) ](http://summeli.com/download/11280/ "Version 0.65")  
-Sources are available on Github:[https://github.com/Summeli/gpSP4Cute/tree/S60\_5th\_edition](https://github.com/Summeli/gpSP4Cute/tree/S60_5th_edition)  
-**The Bios:**  
-Remember to set the correct bios before loading ROMs. Make sure to get an authentic one , it’ll be exactly 16384 bytes large and should have the following md5sum “a860e8c0b6d573d191e4ec7db1b1e4f6”. The Bios extension should be .bin  
-**Project Wiki page:**  
-<https://github.com/Summeli/gpSP4Cute/wiki>  
-**Compatibility list:**  
-Compatibility list for S60 5th edition can be found at:  
-<https://github.com/Summeli/gpSP4Cute/wiki/gpsp-for-S60-5th-edition-compatibility-list>  
-**Read this before posting comments:**
 
+### Download:   
+Download the gpsp4Symbian: [ gpsp\_v065 (56818 downloads) ](/jekyll-export/wp-content/uploads/downloads/2011/07/gpsp_065.sis)   
+Sources are available on Github:[https://github.com/Summeli/gpSP4Cute/tree/S60\_5th\_edition](https://github.com/Summeli/gpSP4Cute/tree/S60_5th_edition)  
+
+### The Bios:   
+Remember to set the correct bios before loading ROMs. Make sure to get an authentic one , it’ll be exactly 16384 bytes large and should have the following md5sum “a860e8c0b6d573d191e4ec7db1b1e4f6”. The Bios extension should be .bin  
+### Project Wiki page:    
+[https://github.com/Summeli/gpSP4Cute/wiki](https://github.com/Summeli/gpSP4Cute/wiki) 
+
+### Compatibility list:     
+Compatibility list for S60 5th edition can be found at:  
+[https://github.com/Summeli/gpSP4Cute/wiki/gpsp-for-S60-5th-edition-compatibility-list](https://github.com/Summeli/gpSP4Cute/wiki/gpsp-for-S60-5th-edition-compatibility-list)
+
+### Read this before posting comments:   
 - Do NOT Ask where to find ROMs / Bios. Asking about these will just get you banned!

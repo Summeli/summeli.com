@@ -22,23 +22,22 @@ I made my own Exception handler to make the memory dump into a file. The memory 
 See what to do with the memory dump from [NewLC article aobut tracking down the Hardware exceptions](http://www.newlc.com/fr/tracking-down-hardware-exceptions-hardware).
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 _LIT(KTestFile, "C:\\Data\\myExcepption.txt");
 _LIT( KStackInfo, "StackInfo: ");
 void ExceptionHandler(TExcType)
 {
-RFs fs;
-RFile file;
-fs.Connect();
-file.Open(fs,KTestFile,EFileWrite);
-RDebug::Print(_L("Exception handler"));
-HBufC8* buf = HBufC8::NewLC(1000);
-TPtr8 ptr = buf->Des();
-RThread().Context(ptr);
-file.Write(ptr);
-//save register info into a file
-RDebug::Printf( "%S", buf );
-CleanupStack::PopAndDestroy();
+    RFs fs;
+    RFile file;
+    fs.Connect();
+    file.Open(fs,KTestFile,EFileWrite);
+    RDebug::Print(_L("Exception handler"));
+    HBufC8* buf = HBufC8::NewLC(1000);
+    TPtr8 ptr = buf->Des();
+    RThread().Context(ptr);
+    file.Write(ptr);
+    //save register info into a file
+    RDebug::Printf( "%S", buf );
+    CleanupStack::PopAndDestroy();
 }
 ```
 
@@ -47,7 +46,6 @@ Using the Exception handler. The Exception handler can be easily set by calling
 SetExceptionHandler function.
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 User::SetExceptionHandler(&ExceptionHandler,0xffffffff);
 ```
 

@@ -17,21 +17,21 @@ tags:
 ---
 
 The gnuboy is a gameboy / gameboy color emulator, and now it’s ported for S60 5th edition. This was mainly made for the people who asked for gb / gbc support for gpsp. It was much easier to make by compiling a new emulator for S60 😉  
-**What’s new on 0.5.3**
+
+### What’s new on 0.5.3    
 
 - Fixed the issues with D-pad
 - support for \*.gbc files, so you don’t have to rename these files into .gb anymore.
 
-<div class="wp-caption aligncenter" id="attachment_2044" style="width: 394px">[![](http://www.summeli.com/wp-content/uploads/2010/10/gnuboy_menu.jpg "gnuboy_menu")](http://www.summeli.com/wp-content/uploads/2010/10/gnuboy_menu.jpg)gnuboy menu
+![](/jekyll-export//wp-content/uploads/2010/10/gnuboy_menu.jpg)
 
-</div>  
-**know issues:**- No audio
+#### know issues:    
 - battery saves are not working, use save states instead
 - SE and Samsung phones are not supported, sorry
 - it’s quite unfinished, waiting for my N8 😉
 
   
-**Installation:**  
+### Installation:    
 Same process as with other emus:  
 1\. First Install Qt 4.6.3 binaries into your phone
 
@@ -51,7 +51,7 @@ You must give them
 
 And then the symbiansigned should email you the signed gnuboy your phone. This package will be installable ONLY on your phone. This procedure works for all Symbian S60V5 Phones. I had also to change to date on the phone into yesterday to get it working..  
 The alternative method is to hack your phone! You can find pretty good instructions from [MameXM download site.](https://sites.google.com/site/mamexm/Home/download-1-03) (scroll to the bottom of page: Signing &amp; Installing).  
-\[ad\]  
-**Download:**  
-Download the gnuboy: [ gnuboy (23302 downloads) ](http://summeli.com/download/11266/ "Version 0.5.3")  
+
+### Download:    
+Download the gnuboy: [ gnuboy (23302 downloads) ](/jekyll-export/wp-content/uploads/downloads/2010/10/gnuboy_v053.sis)  
 Sources are available on Github:[ https://github.com/Summeli/gnuboy4Symbian](https://github.com/Summeli/gnuboy4Symbian)

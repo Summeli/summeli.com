@@ -17,7 +17,8 @@ tags:
     - nes
 ---
 
-**Playing NES ROMs with gpSP**  
+### Playing NES ROMs with gpSP   
+
 You can play some NES games with gpsp with the help of the [PocketNES](http://www.pocketnes.org/downloads.html). You can convert the NES ROMs into GBA ROMs with following process.
 
 1. Download the PocketNes MenuMaker and PocketNES.gba files into your pc.

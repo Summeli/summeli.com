@@ -16,4 +16,4 @@ The newest update for keeping the gaming performance in good shape with pfsense 
 
 This can be be done with simple rules. The same rules can be used for tagging the traffic, and prioritizing them down in the QoS side (or we could even put a a network limitter for steam traffic).
 
-<figure class="wp-block-image size-large">![](/wp-content/uploads/2021/11/pfsense_network-1024x322.png)<figcaption>the steamcache is separated from rest of the network with source and destination rules</figcaption></figure>
+![the steamcache is separated from rest of the network with source and destination rules](/jekyll-export/wp-content/uploads/2021/11/pfsense_network-1024x322.png)

@@ -21,7 +21,7 @@ tags:
 
 This is just an initial release to gain some feedback how the port is currently working. I would like to know if you get any games running at correct speed. The first number in the fps-counter is telling how fast the emulator is running( it should be 60). If you do get something running at that speed, please also test the audio then. I have some tricks planned for the audio, but there’s really no point of doing it, if it doesn’t run fast enough.  
 Please list some games in the comments that you got running well, so I can test the audio with those. It’s really no point of tweaking audio, if the game doesn’t run well. Tell also what phone you are using. It would be very interesting to have some results from phones with 600Mhz ARM processor.  
-![](/wp-content/uploads/2009/09/gba.jpg)  
+![](/jekyll-export/wp-content/uploads/2009/09/gba.jpg)  
 **Know issues:**
 
 - key config is missing
@@ -42,7 +42,7 @@ There is no keyconfig yet available, so you’ll have to bear with these for a w
 \* :load state  
 left softkey: menu  
   
-**Installation**  
+#### Installation    
 Install the emulator from the sis file, and then place the following files under E:\\GBA folder
 
 - game\_config.txt  
@@ -53,14 +53,17 @@ Install the emulator from the sis file, and then place the following files under
 
 Also Nokia’s OpenC plugin is required. So if you don’t have it, then you should install it asap.  
 And now you’re done. Have fun! 😉  
-**Credits:**  
-This emulator is based on gpsp originally written by Exophase. It also uses SDL port by Anotherguest. Symbian porting was made by me, Summeli.  
-**Download**  
+### Credits:
+
+This emulator is based on gpsp originally written by Exophase. It also uses SDL port by Anotherguest. Symbian porting was made by me, Summeli.
+
+### Download 
 **[ gpsp4Symbian\_v01.sis (7403 downloads) ](http://summeli.com/download/11248/ "Version 0.1")**  
 \[ad\]  
 **Sources**  
 This is my first github project. Get my sources from [http://github.com/Summeli](http://github.com/Summeli/gpSP4S60)  
-**Compatibility**  
+
+### Compatibility
 1\. Spiderman – battle for new york (blue screen).  
 2\. Tekken advance (perfect).  
 3\. Street fighter – zero 3 upper (perfect)  

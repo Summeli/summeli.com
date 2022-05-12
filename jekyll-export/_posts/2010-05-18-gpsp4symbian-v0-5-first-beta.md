@@ -20,17 +20,17 @@ tags:
 the gpSP is a gameboy advance emulator originally written by Exophase. And now it’s ported to the Symbian OS!  
 The first gpSP4Symbian release is now ready for the testing. It already has some of the fixes that I’m taking with the AntSnes as well. This kind of sums up my Qt development strategy, since now I can use the same UI with all my emulators, so the porting process should be quicker. Also taking new updates to the UI should be a lot faster this way, since I can share UI updates between projects.
 
-![gpsp main view](/wp-content/uploads/2010/05/gpsp_mainview-300x169.jpg)
+![gpsp main view](/jekyll-export//wp-content/uploads/2010/05/gpsp_mainview-300x169.jpg)
 
-<div class="wp-caption alignnone" id="attachment_1679" style="width: 310px">![](/wp-content/uploads/2010/04/gpsp_withDpad-300x169.png)gpspcute with d-pad
+![](/jekyll-export/wp-content/uploads/2010/04/gpsp_withDpad-300x169.png)
 
-</div>**cool stuff:**
+### cool stuff:   
 
 - 30fps on N97!
 - cool UI with Qt
 - supports a lot of ROMs
 
-**know issues:**
+### know issues:  
 
 - It’s a gpsp port, so see the gpsp compatibility list before complaining about non-working ROMs
 - Audio is not yet implemented (I’m waiting for new Qt release with QAudio implementation)
@@ -40,7 +40,7 @@ The first gpSP4Symbian release is now ready for the testing. It already has some
 - there are some limitations in the ZIP file support, so maybe you have to upzipt the ROMs
 - The ZIP files seem to be eating quite a lot of RAM, so If ROM doesn’t work, try extracting it.
 
-**ZIP limitations**
+### ZIP limitations   
 
 - WinZip
 - Roms ziped in the WinZip Maximum (PPMd) format WILL NOT work.
@@ -52,7 +52,7 @@ The first gpSP4Symbian release is now ready for the testing. It already has some
 - Roms ziped in the WinZip None format WILL run.
 
   
-**Installation:**  
+### Installation:     
 Same process as with the AntSnes:  
 1\. First Install Qt 4.6.2 binaries into your phone: [Download Qt installation package](ftp://ftp.qt.nokia.com/pub/qt/symbian/4.6.2/qt_installer.sis)  
 2\. Download the gpsp4symbian.sis  
@@ -68,15 +68,19 @@ You must give them
 
 And then the symbiansigned should email you the signed gpsp4Symbianfor your phone. This package will be installable ONLY on your phone. This procedure works for all Symbian S60V5 Phones. I had also to change to date on the phone into yesterday to get it working..  
 The alternative method is to hack your phone! You can find pretty good instructions from [MameXM download site.](https://sites.google.com/site/mamexm/Home/download-1-03) (scroll to the bottom of page: Signing &amp; Installing).  
-\[ad\]  
-**Download:**  
-Download the gpsp4Symbian: [ gpsp4Symbian\_v0.5 (85566 downloads) ](http://summeli.com/download/11260/ "Version 0.5.1")  
-Notice that there’s also newer gpsp4Symbian version available:[ gpsp4Symbian v. 0.6.5 (with audio)](http://www.summeli.com/?p=2557)  
+
+
+### Download:   
+Download the gpsp4Symbian: [ gpsp4Symbian\_v0.5 (85566 downloads) ](/jekyll-export/wp-content/uploads/downloads/2010/07/gpsp4Symbian_v051.sis)  
+Notice that there’s also newer gpsp4Symbian version available:[ gpsp4Symbian v. 0.6.5 (with audio)](/2557)  
 Sources are available on Github: <https://github.com/Summeli/gpSP4Cute>  
-**The Bios:**  
+
+#### The Bios:     
 Remember to set the correct bios before loading ROMs. Make sure to get an authentic one , it’ll be exactly 16384 bytes large and should have the following md5sum “a860e8c0b6d573d191e4ec7db1b1e4f6”. The Bios extension should be .bin  
-**Project Wiki page:**  
+
+#### Project Wiki page:    
 <http://wiki.github.com/Summeli/gpSP4Symbian/>  
+
 **Read this before posting comments:**
 
 - Do NOT Ask where to find ROMs / Bios. Asking about these will just get you banned!

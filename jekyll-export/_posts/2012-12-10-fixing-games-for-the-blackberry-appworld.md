@@ -21,14 +21,19 @@ I have fixed the games I submitted to the BlackBerry Game-Port-A-Thon. I had man
 
 This one was the trickiest. I don’t own a DevAlpha, and yet I developed for it. The game seemed to work really well on the simulator, but it didn’t work as well on the real device. Luckily I got some images from the BlackBerry AppWorld testing team to help me with my development.
 
-<figure class="wp-block-image alignnone size-medium wp-image-4132">![](/wp-content/uploads/2012/12/freeJeweledBug1-180x300.jpg)<figcaption>FreeJeweled running on DevAlpha device. Screen shot provided by BlackBerry Appworld team</figcaption></figure><figure class="wp-block-image alignnone size-medium wp-image-4133">![](/wp-content/uploads/2012/12/free_jeweled_bug_simulator-179x300.png)<figcaption>FreeJeweled running on simulator</figcaption></figure>####  
+![FreeJeweled running on DevAlpha device. Screen shot provided by BlackBerry Appworld team](/jekyll-export/wp-content/uploads/2012/12/freeJeweledBug1-180x300.jpg)
+
+![FreeJeweled running on simulator](/jekyll-export/wp-content/uploads/2012/12/free_jeweled_bug_simulator-179x300.png)
 
 As you can see the game worked really well on the simulator, and badly on the real device. At first I thought that my problem was that the size of the menu bar buttons is based on the jewel size from the game, and those values came from c++ engine. I thought that maybe there’s some very strange timing issues or something… and that’s causing the qml side ending up with some strange default values. My first attempt was hardcoding the button sizes, but I still got rejected from AppWorld, and they told me that it still looks just as bad.  
 The FreeJeweled is using custom fonts which are packaged into the application itself. My second guess was that the fonts are not working in the same way on the real device as they are on the simulator. This time I had help from a friend with BlackBerry DevAlpha to run some tests for me, and it turns out that the problem was with the font behavior. I blindly changed font sizes on my code, and sent a package for him to test, and after couple of packages we finally got it right.  
   
 Below you can see the working version of the game running on the DevAlpha, and running on Simulator.
 
-<figure class="wp-block-image alignnone size-medium wp-image-4136">![](/wp-content/uploads/2012/12/freejeweled_working_device-180x300.png)<figcaption>FreeJeweled running on Dev Alpha</figcaption></figure><figure class="wp-block-image alignnone size-medium wp-image-4137">![](/wp-content/uploads/2012/12/free_jeweled_working_simulator-180x300.png)<figcaption>Working version of FreeJeweled runnin on simulator</figcaption></figure>  
+![FreeJeweled running on Dev Alpha](/jekyll-export/wp-content/uploads/2012/12/freejeweled_working_device-180x300.png)
+
+![Working version of FreeJeweled runnin on simulator](/jekyll-export/wp-content/uploads/2012/12/free_jeweled_working_simulator-180x300.png)
+
 It seems that I really need the DevAlpha device if I want to do quality ports, since things like this tend to happen sometimes.
 
 #### Blubbles
@@ -42,9 +47,9 @@ setGeometry(40,0,1200,720);
 
 ```
 
-<figure class="wp-block-image alignnone size-full wp-image-4140">![](/wp-content/uploads/2012/12/blubbels_bug.jpg)<figcaption>  
+[Blubbels running on DevAlpha](/wp-content/uploads/2012/12/blubbels_bug.jpg) 
   
-Blubbels running on DevAlpha</figcaption></figure>  
+
 My solution was to run the App in full screen with:
 
 ```
@@ -56,7 +61,7 @@ My solution was to run the App in full screen with:
   
 I also commented out the set Geometry function since it didn’t work. After that I also decided to run the game in portrait mode instead of landscape, and I also modifies the code a bit, so I could get the screen full of bubbles. Now it’s running really well on the simulator, and on the real device too. See the image
 
-<figure class="wp-block-image alignnone size-medium wp-image-4173">![](/wp-content/uploads/2012/12/blubbles_working-183x300.png)<figcaption>Fixed version of Blubbles, screen full of bubbles</figcaption></figure>  
+[Fixed version of Blubbles, screen full of bubbles](/jekyll-export/wp-content/uploads/2012/12/blubbles_working-183x300.png)
 After this I got one more rejection from the AppWorld. It turns out that I left a link to the original Blubbles project at source forge, and I had to remove it, since it was against the BlackBerry AppWorld policies. They categorised the sourceforge as “Another app store”, and told me to remove the link. It’s really not an issue for me, since they still agreed that I could keep the link to my github page where I host the source code. I’m fine with the “github only” policy, since the source code is still easy to find for anyone who’s interested about it.
 
 #### qmlSokoban
@@ -80,6 +85,4 @@ Image {
  }
 ```
 
-<figure class="wp-block-image alignnone size-medium wp-image-4175">![](/wp-content/uploads/2012/12/qmlSokoban-300x184.png)<figcaption>qlmSokoban with D-PAD</figcaption></figure>```
-<pre class="wp-block-preformatted"> 
-```
+![qlmSokoban with D-PAD<](/jekyll-export/wp-content/uploads/2012/12/qmlSokoban-300x184.png)

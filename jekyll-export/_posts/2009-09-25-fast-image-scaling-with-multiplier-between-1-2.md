@@ -25,7 +25,6 @@ In this example 1.3 scaling factor is used for vertical scaling and 1.5 for hori
 Fist let’s make the scaling tables.
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 void symb_create_interpolate_table()
   {
   TReal j = 1.33; //horizontal
@@ -48,7 +47,6 @@ void symb_create_interpolate_table()
 Then we can use the pre-calculated tables to determinate if we have to interpolate a pixel or a line or not. There are all kinds of nice interpolation algorithms for images, but in this example I just reproduced the pixels for the speed. In theory we should also do some filtering after the interpolation, but that’s also abandoned for the speed.
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 u16 *screenlarge_ptr = large_ptr;
 u16 *screengba_ptr = small_ptr;
 u8 i=0;
