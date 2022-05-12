@@ -37,10 +37,10 @@ Whats new:
 There is two different graphic modes, the n-gage mode and portrait. The portrait mode is the default. It’s meant for most 3rd edition phones(phones without “n-gage mode”). The orientation modification takes effect, when AntSnes is started next time( a restart required).  
 The N-gage mode is meant for phones with “n-gage mode” like N95 and N96. The N96 can use the multimediakeys by default, but N95 users must use [Magic keys](http://www.symbian-freak.com/downloads/freeware/cat_s60_3rd/descriptions/systools/magic_keys_remap_and_extend_your_keyboard.htm) to map keys 1-4 to multimediakeys.
 
-![N96 keymap](/wp-content/uploads/2009/01/n96_keys-300x198.jpg)
+![N96 keymap](/jekyll-export/wp-content/uploads/2009/01/n96_keys-300x198.jpg)
 
 </div>**Key config**  
 Start key config to configure keys. The multimediakeys are not supported in the key config, but you can use any normal keys in here.  
 Download:  
-Sis installation package: [antsnes\_v03.sis](/jekyll-exportwp-content/uploads/2009/02/antsnes_v03.sis)  
+Sis installation package: [antsnes\_v03.sis](/jekyll-export/wp-content/uploads/2009/02/antsnes_v03.sis)  
 sources: [antsnes\_v03.zip](/jekyll-export/wp-content/uploads/2009/02/antsnes_v03.zip)

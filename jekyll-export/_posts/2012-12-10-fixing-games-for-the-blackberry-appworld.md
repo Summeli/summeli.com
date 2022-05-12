@@ -47,7 +47,7 @@ setGeometry(40,0,1200,720);
 
 ```
 
-[Blubbels running on DevAlpha](/wp-content/uploads/2012/12/blubbels_bug.jpg) 
+[Blubbels running on DevAlpha](/jekyll-export/wp-content/uploads/2012/12/blubbels_bug.jpg) 
   
 
 My solution was to run the App in full screen with:

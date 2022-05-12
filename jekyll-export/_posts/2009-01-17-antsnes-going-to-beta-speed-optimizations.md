@@ -28,5 +28,5 @@ I expect this binary to work with S60 3.1 and 3.2 phones, but I’m planning to 
 
 N95 users: You still have to map keys 1-4 with Magic keys [as with alpha version.](/28) The Opengl ES support is not included in this release, since DSA rendering is now an option for N95 users too. Howerver I think that the sound support might be possible with OpenGL ES rendering. To be tested..  
 Download: [antsnes\_v01](/jekyll-export//wp-content/uploads/2009/01/antsnes_v01.sis)  
-Source: [antsnes\_src\_v01](/jekyll-export/wp-content/uploads/2009/01/antsnes_01.zip)  
+Source: [antsnes\_src\_v01](/jekyll-export/wp-content/uploads/2009/01/antsnes_v02_src.zip)  
 Currently there are small fixes in the ASM core for ARM11. Theese could be usefull for Maemo developers 😉

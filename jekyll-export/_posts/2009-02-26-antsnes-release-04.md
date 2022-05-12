@@ -47,7 +47,7 @@ Screen Orientatuions:
 
 The Video settings modification takes effect, when AntSnes is started next time( a restart required).
 
-[N96 keymap](/wp-content/uploads/2009/01/n96_keys-300x198.jpg)
+[N96 keymap](/jekyll-export/wp-content/uploads/2009/01/n96_keys-300x198.jpg)
 
 ### Key config 
 Start key config to configure keys. The multimediakeys are not supported in the key config, but you can use any normal keys in here.  
