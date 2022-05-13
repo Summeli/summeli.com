@@ -46,17 +46,17 @@ social:
     # The first element serves as the copyright owner's link
     - https://twitter.com/summeli      # change to your twitter homepage
     - https://github.com/summeli       # change to your github homepage
+    - https://www.linkedin.com/in/antti-pohjola #linked in
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
 
 google_site_verification:               # fill in to your verification string
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
-google_analytics: UA-7388454-1
-  id:                 # fill in your Google Analytics ID
+google_analytics:
+  id: UA-7388454-1                 # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine

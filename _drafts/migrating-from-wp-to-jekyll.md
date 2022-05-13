@@ -60,7 +60,7 @@ Here's a best case scenario image link, which I have to covert into relative url
 wordpress-migration left same wordpress tags in md-files. Now I have every image with and all kinds of "wp-gallery" html-tags, which are not working with jekyll. So I need to clean up all references to images by hand.
 
 ### What about comments
-Moving the coments into Discuss seemd like the easiest way of keeping them, so I just updaloaded them into there, and configured then back on. I'm pretty sure that I lost few comments, but at lesat I got few of them with me. 
+Moving the coments into Discuss seemd like the easiest way of keeping them, so I just updaloaded them into there, and configured then back on. I'm pretty sure that I lost few comments, but at lesat I got few of them with me. I'm not even sure if comments are still relevant in 2022. I might just get rid of them at some point.
 
 ## Everything is fixed
 NICE! I can finally blog with Jekyll and MD files. I love it.
