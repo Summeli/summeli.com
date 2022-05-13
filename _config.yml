@@ -16,20 +16,20 @@ lang: en
 prefer_datetime_locale:
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone:
+timezone: Europe/Helsinki
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
 title: Summeli.com                          # the main title
 
-tagline: developing stuff   # it will display as the sub-title
+tagline: Hammering nails with a chainsaw   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   Developing emulators and some gaming related stuff
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: https://gh-pages.summeli.com
+url: https://summeli.com
 
 github:
   username: Summeli             # change to your github username
@@ -55,7 +55,7 @@ google_site_verification:               # fill in to your verification string
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
-google_analytics:
+google_analytics: UA-7388454-1
   id:                 # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
@@ -73,7 +73,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode:    # [light|dark]
+theme_mode: dark    # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
@@ -83,16 +83,16 @@ theme_mode:    # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://summeli.com/assets/img/apohjola.jpg
 
 # boolean type, the global switch for ToC in posts.
 toc: true
 
 comments:
-  active:         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  active: disqus        # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
-    shortname:    # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+    shortname: summeli   # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
     repo:         # <gh-username>/<repo>

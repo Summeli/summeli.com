@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Migrating from Wordpress to jekyll!"
+title: "Migrating from Wordpress to jekyll!"
 author: Summeli
 categories:
     - wordpres
@@ -42,6 +42,7 @@ I have been running wordpress from 2008. In the way I have had multiple broken p
 At this point it feels that the easiest way of fixing this is to migrate to jekyll and go though all md-files with serach on vs code. Fixing this with static sites and seeing which files I have lost during the meny wordpress migrations is nice.
 
 ### Runing the blog in few different domains
+I have been running the blog in few diffrent domains: "koti.kapsi.fi/summeli", "summeli.fi" and now "summeli.com". These migrations have also left a mark. For some reason I had absolute url's everywhere, which was also a problem, since I have tools to only check relative links that the link still exists. I converted all of my absolute urls (some were broken) into relative ones.
 
 #### sis files are scatter inside wp-installation
 I had lost some of my old downloas while using different versions of the "download-monitor" wp-plugin, and uploading the sis files into various locations of the wp-structure. I manually searched for earch sis-file and fixed the links. So now all of my symbian sis files (which I served here) can be found!
@@ -56,7 +57,10 @@ Here's a best case scenario image link, which I have to covert into relative url
 ´´´
 
 ### All my images are broken
-wordpress-migration left same wordpress tags in md-files. Now I have every image with <figure> and all kinds of "wp-gallery" html-tags, which are not working with jekyll. So I need to clean up all references to images by hand.
+wordpress-migration left same wordpress tags in md-files. Now I have every image with and all kinds of "wp-gallery" html-tags, which are not working with jekyll. So I need to clean up all references to images by hand.
+
+### What about comments
+Moving the coments into Discuss seemd like the easiest way of keeping them, so I just updaloaded them into there, and configured then back on. I'm pretty sure that I lost few comments, but at lesat I got few of them with me. 
 
 ## Everything is fixed
 NICE! I can finally blog with Jekyll and MD files. I love it.
