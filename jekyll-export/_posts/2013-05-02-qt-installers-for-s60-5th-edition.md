@@ -16,7 +16,7 @@ tags:
 I found out that the ftp.nokia.com do not host the Qt installer sis files anymore, so I decided to try to find them and host them in here.  
 Here are the installers **Qt 4.6.3** (gpsp needs these):
 
-- Nokia S60 5th edition devices: [ Qt 4.6.3 for S60 5th edition (24771 downloads) ](/jekyll-export/wp-content/uploads/downloads/2013/04/qt-4.6.3_s60_5th_edition.sis)
+- Nokia S60 5th edition devices: [Qt 4.6.3 for S60 5th edition (24771 downloads)](/jekyll-export/wp-content/uploads/downloads/2013/04/qt-4.6.3_s60_5th_edition.sis)
 - Sony Ericsson Satio devices: [ Qt 4.6.3 for SE devices (3274 downloads) ](/jekyll-export/wp-content/uploads/downloads/2013/04/qt_installer_463_se_s60_5th.sis)
 - Samsung i8910, try the same package as for Satio. If you have a better one, plase share it with me, so I can put it into here.
 
