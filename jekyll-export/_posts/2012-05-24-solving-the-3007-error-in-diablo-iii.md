@@ -40,4 +40,4 @@ However, in these kinds of situations we can use the [SOCKS5 Proxy](http://en.wi
 
 ### Creating a SOCKS5 Proxy for Diablo
 
-SOCKS5 to the rescue. I used putty to create the SOCKS tunnel in the Putty’s tunnel menu by biding a local port 9999, and choosing the tunnel type as dynamic. Then I used [Widecap](http://www.widecap.com/) as a proxyfier to make a proxy for Diablo III. I proxied only the IP for the eu.actual.battle.net, since I didn’t want to waste any more bandwidth from my SSH server than I had to. I also blogged about SOCKS5 for Diablo III in more details at [my previous posts](2933)
+SOCKS5 to the rescue. I used putty to create the SOCKS tunnel in the Putty’s tunnel menu by biding a local port 9999, and choosing the tunnel type as dynamic. Then I used [Widecap](http://www.widecap.com/) as a proxyfier to make a proxy for Diablo III. I proxied only the IP for the eu.actual.battle.net, since I didn’t want to waste any more bandwidth from my SSH server than I had to. I also blogged about SOCKS5 for Diablo III in more details at [my previous posts](/2933)
