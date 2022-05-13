@@ -16,6 +16,7 @@ tags:
 MeBoy is a gameboy / gameboy color emulator for Nokia S40 full touch and Asha phones. The MeBoy is based on JavaBoy developed by Neil Millstone. I just made a simple UI for it for the Nokia Asha phones. It has been a quite some time from my previous emulator port for mobile phones, and I kind of got bored doing them. However hacking with Nokia Asha got me started with this kind of projects again, and it was fun 😉  
 Currently the games with battery saves are not working, but I’m trying to fix it. I’m recommending simple games from the beginning of the GameBoy era such as Super Mario 1, Duck Tales etc.  
 MeBoy running on S40 full touch:  
+
 <iframe allowfullscreen="allowfullscreen" frameborder="0" height="315" loading="lazy" src="//www.youtube.com/embed/vuPs3mFJjtk" width="560"></iframe>
 
 ### Compatibility
@@ -25,7 +26,7 @@ As said, currently only simple games without battery saves are supported. You ca
 ### Download
 
 You can download the MeBoy free from Opera Appstore:  
-![](/wp-content/uploads/2018/11/Opera_Mobile_Store_logo-1.png)
+[![](/jekyll-export/wp-content/uploads/2018/11/Opera_Mobile_Store_logo-1.png)](http://ovi.sigma.apps.bemobi.com/en_in/meboy_lite.html)
 
 or if you want to support me, you can buy the paid version or give me a review on Nokia Store (that helps too). Please remember that most of the games are not working, so you should try the free version first.
 

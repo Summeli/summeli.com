@@ -53,7 +53,6 @@ setGeometry(40,0,1200,720);
 My solution was to run the App in full screen with:
 
 ```
-<pre class="wp-block-preformatted"><pre class="brush: cpp; title: ; notranslate" title="">
   MainWindow *mw = new MainWindow;
   showFullScreen();
 ```
@@ -67,11 +66,10 @@ After this I got one more rejection from the AppWorld. It turns out that I left 
 #### qmlSokoban
 
 For this game I got a very valid point from the AppWorld testes that the man is impossible the move. Actually it was possible to move the man, but you just had to click the next block of the screen where the man is. Dragging event’s with a finger moved only the world around the man(not the man itself). I guess that this happens all the time with the real device and touchscreen. The controls are easy only with the mouse, but they don’t work that well with the touchscreen.  
-I decided to add a DPAD to control the man. I still wanted to keep the sokoban controls “clean” in the way that no one will mess up their game by an accidental move. Therefore I configured the buttons to only control the character from “mouseClick’s”, and not from drag events. The character moves now only with one “tap” to the DPAD. The character will not move two screens even if you keep the finger pressed to the button(this to prevent accidental moves). The AppWorld testers also agreed that this was a good fix, and I got the game passed to the store.  
+I decided to add a DPAD to control the man. I still wanted to keep the sokoban controls “clean” in the way that no one will mess up their game by an accidental move. Therefore, I configured the buttons to only control the character from “mouseClick’s”, and not from drag events. The character moves now only with one “tap” to the DPAD. The character will not move two screens even if you keep the finger pressed to the button(this to prevent accidental moves). The AppWorld testers also agreed that this was a good fix, and I got the game passed to the store.  
 Here’s a snippet how to create “tapping” DPAD buttons for your game. You only need one image component, with proper anchors.
 
 ```
-<pre class="wp-block-preformatted"><pre class="brush: cpp; title: ; notranslate" title="">
 //qml-code for one controller button
 Image {
  id: up

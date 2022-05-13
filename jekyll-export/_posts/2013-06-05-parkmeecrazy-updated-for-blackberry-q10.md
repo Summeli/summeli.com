@@ -15,8 +15,9 @@ tags:
 
 ParkMeeCrazy is A “Rush Hour”/”Traffic Jam” game clone written in Qt+QML.  
 ParkMeeCrazy is licensed under GPLv2 license. You can find the source code for BlackBerry 10 port from <https://github.com/Summeli/BlackBerry-10-Port-A-Thon>  
+
 <iframe allowfullscreen="allowfullscreen" frameborder="0" height="315" loading="lazy" src="https://www.youtube.com/embed/3Qivzzy4PvI" width="560"></iframe>
 
 #### Download
 
-[![](http://www.summeli.com/wp-content/uploads/2013/02/BB-World_Get-It_BLK-Box-300x103.png)](http://appworld.blackberry.com/webstore/content/20079233)
+![](/jekyll-export/wp-content/uploads/2013/02/BB-World_Get-It_BLK-Box-300x104.png)

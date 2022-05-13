@@ -18,12 +18,12 @@ tags:
 ---
 
 I made all of this stuff into the Finice 2019 ice climbing competition ([www.finice2019.com](http://www.finice2019.com)). The idea is to send the clock timing events into web, so we could use them in the results-office, or we could insert the clock into the video stream during the competition. There’s always some delay in the video stream, so we need a way to add custom delay into the clock. The data is good, but we have to remember to add some delay so the clock and video will be on sync. It would look stupid if the climber get to the top, and the clock has already stopped a few seconds ago.  
-Here’s a short video about how all of it works:  
+Here’s a short video about how all of it works: 
+
 <iframe allowfullscreen="allowfullscreen" frameborder="0" height="315" loading="lazy" src="https://www.youtube.com/embed/7SYG0wvdRCA" width="560"></iframe>  
   
    
-[![](/wp-content/uploads/2019/04/finice1.png)](https://www.summeli.com/?attachment_id=13427)  
-So the system contains following parts:
+![](/jekyll-export//wp-content/uploads/2019/04/finice1.png)
 
 1. alge-timing system, and the interface to the PC via Timy (USB) device. Then the PC read the USB, and sends that data into the webserver. The PC software is on my github: h[ttps://github.com/Summeli/algetiming-streamer](https://github.com/Summeli/algetiming-streamer)
 2. The web server part. The very simple logic for handling websockets <https://github.com/Summeli/Streaming-clock>

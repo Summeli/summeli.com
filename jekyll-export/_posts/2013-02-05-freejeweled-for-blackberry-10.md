@@ -15,8 +15,9 @@ tags:
 
 FreeJeweled is a simple match-3 game inspired by Bejeweled2 and Gweled.  
 FreeJeweled is distributed under GNU Library or Lesser General Public License (LGPL). You can find the sources for BlackBerry 10 port from: <https://github.com/Summeli/FreeJeweled-BB10>  
+
 <iframe allowfullscreen="" frameborder="0" height="315" loading="lazy" src="https://www.youtube.com/embed/zkyWSe1H44Q" width="560"></iframe>
 
 #### Download
 
-[![](http://www.summeli.com/wp-content/uploads/2013/02/BB-World_Get-It_BLK-Box-300x103.png)](http://appworld.blackberry.com/webstore/content/19228892)
+![](/jekyll-export/wp-content/uploads/2013/02/BB-World_Get-It_BLK-Box-300x104.png)

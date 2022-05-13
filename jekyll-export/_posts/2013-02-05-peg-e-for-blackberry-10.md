@@ -19,4 +19,4 @@ Peg-E is licensed under GPLv3 license. You can find the source code for the Blac
 
 #### Download
 
-[![](http://www.summeli.com/wp-content/uploads/2013/02/BB-World_Get-It_BLK-Box-300x103.png)](http://appworld.blackberry.com/webstore/content/20079003)
+![](/jekyll-export/wp-content/uploads/2013/02/BB-World_Get-It_BLK-Box-300x104.png)

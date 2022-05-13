@@ -23,7 +23,6 @@ The file’s name is manifest.webapp, and creating it was pretty easy. I justcop
 Here’s how my manifest looks like:
 
 ```
-<pre class="brush: jscript; title: ; notranslate" title="">
 {
   "name": "JamendoFM",
   "description": "Jamendo radio client for mobile",

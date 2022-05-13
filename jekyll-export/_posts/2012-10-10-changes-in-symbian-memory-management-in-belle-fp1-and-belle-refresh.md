@@ -15,11 +15,10 @@ tags:
     - belle
 ---
 
-A while a go I made [gpsp update for the Symbian Belle and Belle Refresh](http://www.summeli.com/?p=2991). I learned that for some reason Nokia has changed the memory management a bit, so the new Symbian version will fail when I’m creating my own heaps with RHeap API’s. It seems that the new Symbian is unable to increase the application heap size when creating new heaps. Luckily the fix is rather easy;  
+A while a go I made [gpsp update for the Symbian Belle and Belle Refresh](/2991). I learned that for some reason Nokia has changed the memory management a bit, so the new Symbian version will fail when I’m creating my own heaps with RHeap API’s. It seems that the new Symbian is unable to increase the application heap size when creating new heaps. Luckily the fix is rather easy;  
 I just had to increase the initial amount of Heap reserved by the app startup by increasing the target.EPOCHEAPSIZE in the Qt’s .pro file. like this:
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 //it was somethign small like: symbian:TARGET.EPOCHEAPSIZE = 0x200000 0x1000000
 symbian:TARGET.EPOCHEAPSIZE = 0x800000 0x1400000
 ```

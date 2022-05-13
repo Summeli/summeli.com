@@ -19,4 +19,4 @@ I started my wp8 development by playing around with Cocos2d-x port for wp8. I al
 
 ### The source code
 
-The source code for tweejump can be found from: <https://projects.developer.nokia.com/tweejump4wp8/browser/trunk>
+The source code for tweejump can be found from: [TweetJump4wp8](https://github.com/Summeli/TweeJump4wp8)

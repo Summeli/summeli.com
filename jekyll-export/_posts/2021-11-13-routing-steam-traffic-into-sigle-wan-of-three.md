@@ -12,8 +12,8 @@ tags:
     - pfsense
 ---
 
-The newest update for keeping the gaming performance in good shape with pfsense is to put steam-related traffic into lowest priority, or maybe just put it into single WAN.
+The newest update for keeping the gaming performance in good shape with pfsense is to put steam-related traffic into the lowest priority, or maybe just put it into single WAN.
 
-This can be be done with simple rules. The same rules can be used for tagging the traffic, and prioritizing them down in the QoS side (or we could even put a a network limitter for steam traffic).
+This can be done with simple rules. The same rules can be used for tagging the traffic, and prioritizing them down in the QoS side (or we could even put a network limitter for steam traffic).
 
 ![the steamcache is separated from rest of the network with source and destination rules](/jekyll-export/wp-content/uploads/2021/11/pfsense_network-1024x322.png)

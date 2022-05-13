@@ -15,12 +15,13 @@ tags:
 
 Bubblet is a jawbreaker clone for Nokia S40 FullTouch and Asha phones. Bubblet was originally developed by: [Juan Antonio Agudo](http://keyboardsamurais.de/) for phones with keyboards and small screens. I just modernized the application for new Asha phones with touch controls.  
 Bubblet running on S40 full touch:  
+
 <iframe allowfullscreen="" frameborder="0" height="315" loading="lazy" src="//www.youtube.com/embed/3tq4V7557sc" width="560"></iframe>
 
 ### Download
 
 You can download the Bubblet from Opera App store:  
-[![Opera Mobile Store](https://apps.opera.com/badge.php?a=s&v=dark_v2&did=83207&pid=607403 "Opera Mobile Store")](http://apps.opera.com/badge.php?a=c&v=dark_v2&did=83207&pid=607403)
+[![](/jekyll-export/wp-content/uploads/2018/11/Opera_Mobile_Store_logo-1.png)](http://apps.opera.com/badge.php?a=c&v=dark_v2&did=83207&pid=607403)
 
 ### Source code
 

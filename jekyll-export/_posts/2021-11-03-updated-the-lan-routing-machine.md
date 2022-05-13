@@ -20,7 +20,7 @@ pfsense is just newer version
 
 Here’s the upgraded network diagram:
 
-![](/jekyll-export/wp-content/uploads/2021/11/lan_network_updated-1.png) At times like these is pretty nice to have a blog to keep track of things to be done. My old[ multirouting post](https://summeli.com/11741/) still seems to be a good example how to do this.
+![](/jekyll-export/wp-content/uploads/2021/11/lan_network_updated-1.png) At times like thes are pretty nice to have a blog to keep track of things to be done. My old[ multirouting post](/11741) still seems to be a good example how to do this.
 
 Lancache.net  
 The new version is being run by docker-compose.

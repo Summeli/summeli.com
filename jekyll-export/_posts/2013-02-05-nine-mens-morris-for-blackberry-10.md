@@ -13,9 +13,10 @@ tags:
     - z10
 ---
 
-[Nine Men’s Morris](http://en.wikipedia.org/wiki/Nine_Men's_Morris) is classic strategy board game, and now it’s available for BlackBerry 10. The game was orignally developed for Meego/Harmattan, and then it was ported to BlackBerry 10. The game is licensed under GPLv2 license, and you can get the source code from github: [https://github.com/Summeli/NineMensMorris-BB10](ps://github.com/Summeli/NineMensMorris-BB10)  
+[Nine Men’s Morris](http://en.wikipedia.org/wiki/Nine_Men's_Morris) is classic strategy board game, and now it’s available for BlackBerry 10. The game was orignally developed for Meego/Harmattan, and then it was ported to BlackBerry 10. The game is licensed under GPLv2 license, and you can get the source code from github: [https://github.com/Summeli/NineMensMorris-BB10](ps://github.com/Summeli/NineMensMorris-BB10)   
+
 <iframe allowfullscreen="" frameborder="0" height="315" loading="lazy" src="https://www.youtube.com/embed/HN5j87Mj_Hw" width="560"></iframe>
 
 #### Download
 
-[![](http://www.summeli.com/wp-content/uploads/2013/02/BB-World_Get-It_BLK-Box-300x103.png)](http://appworld.blackberry.com/webstore/content/19311287)
+![](/jekyll-export/wp-content/uploads/2013/02/BB-World_Get-It_BLK-Box-300x104.png)

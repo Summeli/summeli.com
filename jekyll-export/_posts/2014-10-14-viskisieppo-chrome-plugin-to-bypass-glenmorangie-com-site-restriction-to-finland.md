@@ -24,7 +24,6 @@ You can download the whole project from my github page: <https://github.com/Summ
 The plugin basically add, or edits the “X-Forwarded-for” HTTP-headers to make the requests look like they are not coming from Finland. This is basically implemented with Chrome webrequest-API
 
 ```
-<pre class="brush: jscript; title: ; notranslate" title="">
 var requestFilter = {
 	urls: [
 		"*://*/*"

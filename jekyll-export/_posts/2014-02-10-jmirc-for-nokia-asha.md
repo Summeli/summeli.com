@@ -12,5 +12,7 @@ categories:
 
 jmIRC is a IRC client for Nokia Asha phones. The jmIRC was originally developed for j2ME by: Juho Vähä-Herttua, and it was ported to Asha by me. I just tuned some menus a bit, and added support for flick gestures.  
 You can download the jmIRC from opera appstore:  
-[![Opera Mobile Store](https://apps.opera.com/badge.php?a=s&v=dark_v2&did=83207&pid=607407 "Opera Mobile Store")](http://java.apps.opera.com/en_fi/jmirc.html)  
+
+[![](/jekyll-export/wp-content/uploads/2018/11/Opera_Mobile_Store_logo-1.png)](http://java.apps.opera.com/en_fi/jmirc.html)   
+
 The source code can be found from github: <https://github.com/Summeli/jmIRC-Asha>

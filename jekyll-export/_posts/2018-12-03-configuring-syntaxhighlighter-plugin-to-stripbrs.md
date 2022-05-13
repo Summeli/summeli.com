@@ -20,7 +20,6 @@ I had way too much trouble with the new version of the SyntaxHighlighter Evolved
 The SyntaxHighlighter configuration is easy. The plugin is running on JavaScript, so all we have to do is to
 
 ```
-<pre class="brush: jscript; title: ; notranslate" title="">
 SyntaxHighlighter.config.stripBrs = true;
 SyntaxHighlighter.all();
 ```
@@ -28,7 +27,6 @@ SyntaxHighlighter.all();
 To get there I wrote a simple plugin that add the new js after WordPress js scripts. Here’s how it’s done:
 
 ```
-<pre class="brush: php; title: ; notranslate" title="">
 function add_js_config() {
     wp_register_script( 'syntaxhighlighter_config',
                        plugins_url('syntaxhighlightstripbrs.js',__FILE__),

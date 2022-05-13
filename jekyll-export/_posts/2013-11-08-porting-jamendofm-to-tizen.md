@@ -15,6 +15,7 @@ tags:
 ---
 
 At First I created a new jQueryMobile based UI with Tizen SDK. then I simply addecd the source-code from my JamendoFM project into the Tizen project, and voilà, I got JamendoFM running on Tizen Emulator.  
+
 **The method above got the application running only on Tizen emulator. Running it on the device itself requires correct access policies to the manifest file.**
 
 ### Access Policy in Tizen
@@ -22,7 +23,6 @@ At First I created a new jQueryMobile based UI with Tizen SDK. then I simply add
 To get the JamendoFM running on the real device I had to add the urls that JamendoFM uses into the [app manifest file](http://wiki.tizen.org/wiki/Security/Application_installation_and_Manifest). The url can be added like this:
 
 ```
-<pre class="brush: jscript; title: ; notranslate" title="">
 <access origin="http://jamendo.com" subdomains="true">
 <access origin="http://radionomy.com" subdomains="true">
 <access origin="http://imgjam.com" subdomains="true">

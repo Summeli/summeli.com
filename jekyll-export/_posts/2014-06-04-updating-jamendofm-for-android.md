@@ -18,7 +18,6 @@ The problem is somehow related to the radiocontrols. Settings the audiosource, a
 Here’s my changes with the audio:
 
 ```
-<pre class="brush: jscript; title: ; notranslate" title="">
    /*the old code that doesn't work*/
    /*
     var audio = $("#radiocontrols");
@@ -39,7 +38,6 @@ Here’s my changes with the audio:
 I also added the permissions for the lockscreen so the music will continue to play even when the lockscreen is on. The lockscreen permissions can be added though config.xml (phonegap) like this:
 
 ```
-<pre class="brush: xml; title: ; notranslate" title="">
    <gap:config-file platform="android" parent="/manifest">
       <uses-permission android:name="android.permission.WAKE_LOCK" />
    </gap:config-file>

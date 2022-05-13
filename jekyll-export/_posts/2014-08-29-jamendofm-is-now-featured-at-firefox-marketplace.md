@@ -22,4 +22,4 @@ You can download the JamendoFM for
 - Tizen: There’s still only the developer phone, so no download link yet.
 
 ..maybe I could do one more client for Samsung smart tvs.  
-[![FirefoxFeatured](http://www.summeli.com/wp-content/uploads/2014/08/FirefoxFeatured-1024x776.png)](http://www.summeli.com/wp-content/uploads/2014/08/FirefoxFeatured.png)
+[![FirefoxFeatured](/jekyll-export/wp-content/uploads/2014/08/FirefoxFeatured-1024x776.png)](/jekyll-export/wp-content/uploads/2014/08/FirefoxFeatured.png)

@@ -16,6 +16,8 @@ tags:
 
 QrScan is a QrScanner application for Nokia Asha phones phones. The cameras in current Asha phones are not good enough to read qr-codes from magazines etc. However you can scan bigger Qr codes with those phones really well.  
 Download it from Opera Appstore:  
-![](/wp-content/uploads/2018/11/Opera_Mobile_Store_logo-1.png)  
+
+![](/jekyll-export/wp-content/uploads/2018/11/Opera_Mobile_Store_logo-1.png)  
+
 Source code:  
 As usual you can grab the source code from my github-repository at: <https://github.com/Summeli/QrScan-Asha>

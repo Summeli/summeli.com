@@ -20,7 +20,8 @@ I got Nokia Asha 310 from the developer program, so I wanted to keep that as a p
 
 The IDE is build on top of Eclipse, so it feels familiar to any Eclipse user. (Carbide). It has basic project templates etc. so you’ll get a pretty nice project created by creating a new J2ME project from the IDE. However the default template doesn’t give your app a default icon, and it doesn’t set any icons into the manifest file. This is a big headache for Asha noobies, since you can not install the app into the phone if it’s missing the icon &amp; definitions in the manifest file. However you can debug and run your application on the emulator without these, so it’s really confusing.  
 Now-days every single SDK adds icons and does all the packing magic to the new projects, so you can run your hello world application on a phone, by just pressing run. Just see Android, iOS, BlackBerry, Windows Phone SDKs. This is definitely something that Nokia should fix.  
-**On Device Debugging**  
+
+#### On Device Debugging    
 This one was really hard to get working. You can download all the tools needed from Nokia developer website: [http://developer.nokia.com/Develop/asha/java/start/On-Device\_Debugging/](http://developer.nokia.com/Develop/asha/java/start/On-Device_Debugging/) However I never managed to get the Debugging working though Bluetooth connection, so I had to use the USB cable for debugging. The biggest issue for me with the debugging was the project created just didn’t start with my new project. Later on I learned that I must have an icon for the app before I can install it to the phone ( I whined about this already in the IDE chapter).
 
 ### J2ME

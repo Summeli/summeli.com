@@ -42,5 +42,3 @@ async function handleRequest(request) {
 	})
 }
 ```
-
-</div>

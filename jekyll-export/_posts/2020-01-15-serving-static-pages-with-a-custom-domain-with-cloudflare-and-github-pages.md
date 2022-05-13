@@ -21,7 +21,6 @@ The idea is pretty cool. You can serve static web-pages for free with your own d
 Set the DNS to point into Github Pages (<https://help.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site>)
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 185.199.108.153
 185.199.109.153
 185.199.110.153
@@ -34,7 +33,6 @@ I basically made simple html pages without jekyll.
 First add the CNAME file into the root of your github project for your own domain:
 
 ```
-<pre class="brush: cpp; title: ; notranslate" title="">
 www.finice2020.com
 ```
 

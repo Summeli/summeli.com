@@ -13,12 +13,13 @@ tags:
     - wp8
 ---
 
-The new lumia phones are looking really good, and I wanted to develop something for it. I started by porting a cocos2d-x game, and I also won a Lumia 820 with my forum.nokia [cocos2d-x porting entry](http://www.developer.nokia.com/Community/Wiki/Creating_a_New_Cocos2d-x_Project_for_Windows_Phone_8).  
+The new lumia phones are looking really good, and I wanted to develop something for it. I started by porting a cocos2d-x game, and I also won a Lumia 820 with my forum.nokia [cocos2d-x porting entry](http://www.developer.nokia.com/Community/Wiki/Creating_a_New_Cocos2d-x_Project_for_Windows_Phone_8).   
+
 To develop for wp8 you’ll need the Windows 8 Pro edition. It costs only about 30 EURs, so it’s kind of no brainer to buy it. The biggest issue for me with wp8 is that the emulator is build on top of Microsoft’s own virtualization platform called Hyper-V.
 
 #### Hyper-v
 
-The [Hyper-V](http://en.wikipedia.org/wiki/Hyper-V) is a windows virtualization service that give you an opportunity to run different operating system under the virtualization service. It gives you pretty much the same features as VM-Ware, or Virtual Box, but it’s built as windows service, so you could run multiple operating systems inside that one service.
+The [Hyper-V](http://en.wikipedia.org/wiki/Hyper-V) is Windows virtualization service that give you an opportunity to run different operating system under the virtualization service. It gives you pretty much the same features as VM-Ware, or Virtual Box, but it’s built as windows service, so you could run multiple operating systems inside that one service.
 
 #### The Hyper-V steals the virtualization extensions from your processor
 
@@ -41,6 +42,6 @@ Another WTF. If I enable the network connection on the windows phone emulator, t
 This is the most important feature. You can turn it off. After this the wp8 emulator doesn’t work, but you can still build for ARM and test on device.  
 Turn the Hyper-V off by opening the control panel -&gt; add/remove programs -&gt; configure windows features, and then uncheck the Hyper-V box.
 
-<div class="wp-caption aligncenter" id="attachment_4120" style="width: 310px">[![](http://www.summeli.com/wp-content/uploads/2012/11/remove_hyper_v-300x264.png "remove hyper-v")](http://www.summeli.com/wp-content/uploads/2012/11/remove_hyper_v.png)Remove hyper-v
+<[![remove hyper-v"](/jekyll-export/wp-content/uploads/2012/11/remove_hyper_v-300x264.png)](http://www.summeli.com/wp-content/uploads/2012/11/remove_hyper_v.png)   
 
-</div>
+Remove hyper-v

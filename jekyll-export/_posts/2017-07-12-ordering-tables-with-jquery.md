@@ -17,7 +17,6 @@ Last spring I was organizing official Finnish ice climbing championships[ www.fi
 I wrote a small script to order the results, which I just quickly entered to the html page during the competition.
 
 ```
-<pre class="brush: jscript; title: ; notranslate" title="">
 function sortTable(table_id, sortColumn){
     var tableData = document.getElementById(table_id).getElementsByTagName('tbody').item(0);
     var rowData = tableData.getElementsByTagName('tr');
@@ -38,12 +37,10 @@ function sortTable(table_id, sortColumn){
 ```
 
   
-\[ad\]  
 The main idea was to call this sorttable during the competition, and just remove it afterwards, when I had written the official results to the page.  
-Calling the table sorter was pretty easy. Just sort the document, on document.ready.
+Calling the table sorter was pretty easy. Just sort the document, on document.ready.    
 
 ```
-<pre class="brush: jscript; title: ; notranslate" title="">
     $( document ).ready(function() {
      sortTable('men', 4);
      sortTable('women', 4);

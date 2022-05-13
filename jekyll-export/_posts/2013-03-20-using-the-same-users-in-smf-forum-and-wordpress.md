@@ -14,12 +14,14 @@ tags:
 ---
 
 Lately I have developed our climbing club’s website. My goal was to use the same users in Simple Machines Forum (SMF) and WordPress, so no one would have to remember multiple passwords for one site.  
+
 For the SMF to WordPress integration I strongly recommend smf2wp plugin <https://github.com/jwall149/smf2wp>. It creates new WordPress users for every SMF user who goes to the WordPress site while logged into the SMF. Now the WordPress admin can add access rights to the selected users, so they can add and edit content in WordPress site too!  
+
 We also had some custom pages for certain SMF user groups which shouldn’t be visible for basic users, so we needed a method to check the SMF groups in the WordPress side. That feature didn’t exist in the smf2wp plugin, so I committed a small update to the smf2wp plugin to get the SMF user group check working on the WordPress side.  
+
 Here’s an example how to do the access rights check (currently works only with the latest git-version)
 
 ```
-<pre class="brush: php; title: ; notranslate" title="">
 global $smf_user_info;
 /*The SMF groups that can access the content*/
 $accessRights = array(1,2,3);

@@ -20,4 +20,4 @@ qmlSokoban is licensed under GPLv3 license. You can find the source code for Bla
 
 #### Download
 
-[![](http://www.summeli.com/wp-content/uploads/2013/02/BB-World_Get-It_BLK-Box-300x103.png)](http://appworld.blackberry.com/webstore/content/19228955)
+![](/jekyll-export/wp-content/uploads/2013/02/BB-World_Get-It_BLK-Box-300x104.png)

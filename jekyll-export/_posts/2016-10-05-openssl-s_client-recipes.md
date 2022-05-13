@@ -18,14 +18,13 @@ This post is pretty much a reminder note to myself how to quickly start debuggin
 Checking the certification expiration date:
 
 ```
-<pre class="brush: plain; title: ; notranslate" title="">
 openssl s_client -connect www.google.com:443 | openssl x509 -text
 ```
 
 You could also add -servername parameter to support new ssl spec
 
 ```
-<pre class="brush: plain; title: ; notranslate" title=""> openssl s_client -servername google.com -connect www.google.com:443 | openssl x509 -text 
+openssl s_client -servername google.com -connect www.google.com:443 | openssl x509 -text 
 ```
 
 Then see these blocks
@@ -37,7 +36,6 @@ Not After : Mar 23 23:59:59 2017 GMT
 Let’s verify the whole certificate chain:
 
 ```
-<pre class="brush: plain; title: ; notranslate" title="">
 openssl s_client -showcerts -connect www.google.com:443
 ```
 
@@ -45,7 +43,6 @@ This is the most common case for me. Most of the time the certificate is somehow
 After this we can make simple GET request to the host with
 
 ```
-<pre class="brush: plain; title: ; notranslate" title="">
 GET /myresource.html HTTP/1.1
 Host: www.google.com
 ```

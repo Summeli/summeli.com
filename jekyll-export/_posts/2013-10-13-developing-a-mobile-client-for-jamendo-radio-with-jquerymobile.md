@@ -22,6 +22,7 @@ tags:
 In this article I’m going to create a jQueryMobile based client for Jamendo Radio.  
 The JQuery Mobile based UIs can be run on almost every smartphone platform; iOS, Android, Windows Phone, BlackBerry10, Tizen, Firefox OS etc. The development of JQuery Mobile based UIs is very nice, since you can develop them with HTML and JavaScript in a standard desktop browser.  
 Here’s a short video of JamendoFM running on FirefoxOS.  
+
 <iframe allowfullscreen="" frameborder="0" height="315" loading="lazy" src="//www.youtube.com/embed/OnXUEeg31JY" width="420"></iframe>
 
 ### Getting the API for Jamendo
@@ -33,7 +34,6 @@ At first you must register to <http://developer.jamendo.com/> to get the API key
 The first page will be used for listing the radio mixes form Jamendo.com.
 
 ```
-<pre class="brush: xml; title: ; notranslate" title="">
 <!-- Starting page, listing the mixes -->
 <div id="radioListPage" data-role="page">
 <div data-role="header" data-position="fixed">
@@ -51,7 +51,6 @@ The radio list will be loaded into the radioList-element. The next step is to po
 The data is loaded with [JSONP ](http://en.wikipedia.org/wiki/JSONP)so the extra parameter &amp;callback=? is added to the end of the requests.
 
 ```
-<pre class="brush: jscript; title: ; notranslate" title="">
 $( document ).delegate("#radioListPage", "pagebeforeshow", function()  {
    $.mobile.loading( 'show',{text:'loading'} );
    var jqxhr = $.getJSON('http://api.jamendo.com/v3.0/radios?client_id='+g_clientId+'&callback=?', null, null,'application/json')
@@ -76,7 +75,6 @@ $( document ).delegate("#radioListPage", "pagebeforeshow", function()  {
 The second page will be for listening the radio. In this page we’re going to show the pageCover, and load the audiostream with HTML5 audio-tags.
 
 ```
-<pre class="brush: xml; title: ; notranslate" title="">
 <!-- Radio Listening page -->
 <div id="radioPage" data-role="page" data-add-back-btn="true">
 <div id="radioHeader" data-role="header"></div>
@@ -94,14 +92,12 @@ In the javavascriptside, we’re going to use jQuery to fill in the radioHeader,
 The radioHeader can be simply added with
 
 ```
-<pre class="brush: jscript; title: ; notranslate" title="">
  $('#radioHeader #radioName').text(result.results[0].dispname);
 ```
 
 The radiosource can be set(replaced) like this:
 
 ```
-<pre class="brush: jscript; title: ; notranslate" title="">
 function setRadioStream(sourceUrl) {
     var audio = $("#radiocontrols");
     $("#radiosource").attr("src", sourceUrl);
@@ -117,7 +113,6 @@ function setRadioStream(sourceUrl) {
 Adding pagetransition effects with jQueryMobile is easy. Just add data-transition=”slide” argument to the link-elements like this:
 
 ```
-<pre class="brush: jscript; title: ; notranslate" title="">
 <a href="index.html#aboutPage" data-transition="slide" data-role="button">About</a>
 ```
 

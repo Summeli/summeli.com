@@ -18,6 +18,7 @@ tags:
 ---
 
 JamendoFM is now available for Android and Tizen OS.  
+
 <iframe allowfullscreen="" frameborder="0" height="315" loading="lazy" src="//www.youtube.com/embed/OnXUEeg31JY" width="420"></iframe>
 
 ### JamendoFM in Google Play
@@ -29,7 +30,6 @@ You can download JamendoFM from Google Play at: <https://play.google.com/store/a
 
 The Firefox app is much better than the one in the Google Play. The performance is decent even on low end device such as the GeeksPhone, and it also plays music under the lock screen.  
 You can Download JamendoFM from the Firefox Store at: <https://marketplace.firefox.com/app/jamendofm>  
-\[ad\]
 
 ### JamendoFM in Github
 

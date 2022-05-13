@@ -22,13 +22,13 @@ Here’s a simple tutorial how to create SSH Tunnel and Socks proxy to play Diab
 
 ### Creating the SOCKS5 SSH tunnel with Putty
 
-#### Step 1:
+#### Step 1
 
 Open Putty and go to the Tunnels menu. Set source port to 9999, and then set Dynamic as the port type, and press Add.
 
 ![](/jekyll-export/wp-content/uploads/2012/05/putty1-300x291.png)
 
-#### Step 2: 
+#### Step 2
 
 To prevent unwanted disconnects from the SSH server you should set a value to “seconds between keepalive packages”. Open the Connections menu and set some value to seconds between the keepalive packages. 30 seconds is smaller than my server’s disconnect time, so that’s fine for me.
 
@@ -53,17 +53,18 @@ The Proxifier is a proxy server, that can route your traffic though the SOCKS SS
 ### Configuring Widecap for Diablo III
 
 The Widecap UI is a bit messy, but you’ll get used to it 🙂  
-#### Step 1:    
 
-Create a new proxy by clicking proxies/new proxy button. Then set the Server port into localhost:9999 (the SOCKS tunnel we just created). Then create a new Chain by clicking the Create new button at near the chain. You should invent a better name to your chain than the “Unused”
+#### Step 1
+
+Create a new proxy by clicking proxies/new proxy button. Then set the Server port into localhost:9999 (the SOCKS tunnel we just created). Then create a new Chain by clicking the 'Create new' button at near the chain. You should invent a better name to your chain than the “Unused”
 
 ![](/jekyll-export/wp-content/uploads/2012/05/wincap1-268x300.png)
 
 Connect to localhost:9999, and Create a new Chain, and click OK
 
-#### Step 2:    
+#### Step 2    
 
-Create a new rule, by clicking the “new rule” button under the network.You can give a name to your rule in the Main tab. Next click the chain tb, and set the proxy chain you to the rule that you created in Step1.
+Create a new rule, by clicking the “new rule” button under the network. You can give a name to your rule in the Main tab. Next click the chain tb, and set the proxy chain you to the rule that you created in Step1.
 
 ![](/jekyll-export/wp-content/uploads/2012/05/widecap_forgot-300x239.png)
 
@@ -80,11 +81,13 @@ Create new rule, and set the IP
 
 Currently it seems that playing the Diablo III causes about 15-20MB of traffic to the eu.actual.battle.net so it’s not eating too much bandwidth from my SSH server.  
 
-#### Step 3: 
- 
+#### Step 3
+
 Configure the Diablo III to use the newly created rule. Click to the view programs page. Then Drag and Drop the Diablo III.exe file into the programs area. After this right-click the Diablo III.exe, and choose “modify program”. Then choose the rule you created in the Step 2 for the Diablo III and press OK. If you’re behind a firewall, you should also add the same rule for the Diablo launcher, so it can update the Diablo III for you.
 
-[![](/jekyll-export/wp-content/uploads/2012/05/wincap3-300x111.png "wincap3")](/jekyll-export/wp-content/uploads/2012/05/wincap3.png)Set the newly created rule for Diablo III.exe
+[![wincap3](/jekyll-export/wp-content/uploads/2012/05/wincap3-300x111.png)](/jekyll-export/wp-content/uploads/2012/05/wincap3.png)   
+
+Set the newly created rule for Diablo III.exe
 
 #### Protip: install openSSH server to port 443
 
