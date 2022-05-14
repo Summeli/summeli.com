@@ -8,6 +8,9 @@ categories:
     - jekyll
 tags:
     - porting
+    - wordpress
+    - jekyll
+    - webdev
 ---
 
 I've been running this blog since 2008, but I haven't been updating the blog for a while. I've been too busy doing other things. The problem is that Wordpress needs constant care to keep it running well.
@@ -34,7 +37,7 @@ The export-jekyll pluging failed with broken zip-files. I was really wondering i
 
 However, it turned out that one of my own plugins was breaking the zip-files. I had an empty line after closing php-tags in one of my own plugins. I really don't maintain my own stuff that well. The plugin ended up putting some empty space after everything --> zip-files were broken.
 
-Lesson learned. Remember not to leave this empty line after closing the tags.      
+Lesson learned. Remember not to leave this empty line after closing the tags.
 
 ### Not even knowing what's broken during the past decade
 
