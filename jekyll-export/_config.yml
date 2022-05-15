@@ -1,8 +1,0 @@
-url: 'summeli.com'
-name: Summeli.com
-description: 'developing stuff'
-defaults:
-  - scope:
-      path: "wp-content/uploads/2021/11"
-    values:
-      image: true
