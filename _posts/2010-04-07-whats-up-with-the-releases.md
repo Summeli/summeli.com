@@ -22,7 +22,7 @@ tags:
 
 This blog has been pretty quiet lately, and maybe you’re wondering why there has been no releases lateley 🙂 Well, I have been snowboarding the last month, so I really haven’t made any progress. I still have a lot of photo’s and videos to edit, which will keep me away from my emulator projects for a while.. But soon the releases will be coming at the usual speed 🙂
 
-![](/wp-content/uploads/2010/04/snowboarding1-300x250.jpg)
+![](/wp-content/uploads/2010/04/snowboarding1-300x249.jpg)
 
 As I said earlier the future of my emulators is in the Qt. The works is proceeding really well. The AntSnesQt is only missing style sheet, and then I could release it. Actually I already have started the gpsp port with the same Qt based UI. The gpsp requires few SDL-alike functions to be mapped into the UI, but I can mostly reuse the stuff I made for the AntSnes.  
 
