@@ -34,9 +34,13 @@ it seems to be important to restart the lancache docker every time after making 
 
 ### It's all about dns
 
-If we don't restart the lanche after changing the pfSense routing schemes we're going to end up with broken dns. Even after rebooting and changing we're seeing few dns resolve timeouts. The error log in /logs/error.log if full of these if we don't make the resetart.
+If we don't restart the lanche after changing the pfSense routing schemes we're going to end up with broken dns. Even after rebooting and changing we're seeing few dns resolve timeouts. The error log in /logs/error.log if full of these if we don't make the restart. Maybe someone with more network experience could explain why the restart is needed. I have no idea. Maybe some of these connections are still open though different WANs thant the pfSense would like to use, and those connections will fail. 
 
 
 ´´´
 2022/05/21 11:51:07 [error] 1996#1996: *409 clientconfig.akamai.steamstatic.com could not be resolved (110: Operation timed out), client: 192.168.0.10, server: , request: "GET /appinfo/440900/sha/50c5ab81a6599dbf1d0ce1e2e341d59d9b2adc67.txt.gz HTTP/1.1", host: "clientconfig.akamai.steamstatic.com"
 ´´´´
+
+### EA's origin
+
+To get LanCache working with Origin users must remember to disable safe downloads (downloads with TLS) to get the local lancache working.
