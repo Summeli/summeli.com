@@ -44,3 +44,7 @@ If we don't restart the lanche after changing the pfSense routing schemes we're 
 ### EA's origin
 
 To get LanCache working with Origin users must remember to disable safe downloads (downloads with TLS) to get the local lancache working.
+
+## Random restarts required
+
+It seems to be stuck at some points. I have no idea why. Reconfiguring pfSense (with same config) and restarting the lancache docker seems to be solving everything.
