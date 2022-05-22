@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Running Lancache with pfSense"
+title: "Running Lancache with pfSense in 2022"
 author: Summeli
-description: Running Lancache with pfSense"
+description: Running Lancache with pfSense in 2022"
 categories:
     - pfsense
 tags:
@@ -13,10 +13,17 @@ tags:
 We've been running [lancache]https://lancache.net/) and pfsense for few years. Before lancache we used steamcache, and then made the logical transformation into lancache
 
 ## Configuration
-We are using three WAN's for routing traffic in the lan party. 
+We are using three WAN's for routing traffic in the lan party.  See my other post about the [configuration](/14735).
+
+### 2.6.0 Update
+
+Routing was completely broken for me after upgrading from 2.5.2 into 2.6.0. I fixed this by going into interfaces / WAN, and uncheckin **Block bogon networks**
+on the bottom of the pages. It's just a random thing I found from [netgate forums](https://forum.netgate.com/topic/169872/upgrade-2-5-2-to-2-6-0-upgrade-success-limiters-not-passing/6)
 
 ### lancache
-Lancache is running on 192.168.0.2, and we're routing all connection from lancache into the internet via WAN2
+
+Lancache is running on 192.168.0.2, and we're routing all connection from lancache into the internet via WAN2.
+![](/img/2022/2022_05_router_hw.jpg)
 
 ### player on network
 Players are any ip's starting from 192.168.0.10, and we're routing them to the Internet via Gateway group with WAN1 and WAN3.
@@ -34,7 +41,7 @@ it seems to be important to restart the lancache docker every time after making 
 
 ### It's all about dns
 
-If we don't restart the lanche after changing the pfSense routing schemes we're going to end up with broken dns. Even after rebooting and changing we're seeing few dns resolve timeouts. The error log in /logs/error.log if full of these if we don't make the restart. Maybe someone with more network experience could explain why the restart is needed. I have no idea. Maybe some of these connections are still open though different WANs thant the pfSense would like to use, and those connections will fail. 
+If we don't restart the lanche after changing the pfSense routing schemes we're going to end up with broken dns. Even after rebooting and changing we're seeing few dns resolve timeouts. Maybe there's not enough bandwidth for dns queries? The error log in /logs/error.log if full of these if we don't make the restart. Maybe someone with more network experience could explain why the restart is needed. I have no idea. Maybe some of these connections are still open though different WANs thant the pfSense would like to use, and those connections will fail.
 
 
 ´´´
