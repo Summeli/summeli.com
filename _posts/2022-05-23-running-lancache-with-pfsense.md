@@ -10,7 +10,7 @@ tags:
     - lancache
 ---
 
-We started the pfSense journey with SteamCache and pfSense. Few years ago we upgraded into [lancache](https://lancache.net/) , which is caching Origin, Battle.net, windows update etc. in addition to Steam.
+We started the pfSense journey with SteamCache and pfSense. Few years ago we upgraded into [lancache](https://lancache.net/) , which is caching Origin, Battle.net, Windows update in addition to Steam.
 
 ## Configuration
 
