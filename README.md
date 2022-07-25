@@ -6,9 +6,9 @@ The site is running in Github pages with Jekyll
 
 ## Local host
 
-´´´
+```
 jekyll serve --drafts
-´´´
+```
 
 ## Chirby Jekyll Theme
 
