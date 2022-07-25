@@ -8,7 +8,6 @@ The site is running in Github pages with Jekyll
 
 ```
 jekyll serve --drafts
-
 ```
 
 ## Chirby Jekyll Theme
