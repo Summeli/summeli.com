@@ -11,7 +11,7 @@ tags:
     - php
 ---
 
-I'm running a corporate blog with only one category for blog-posts. Other categories are used for other stuff, and they are rendered in different way. The blog's theme has its own implementation of related posts, but it produces pretty weak results with our current amount of posts. 
+I'm running a corporate blog with only one category for blog-posts. Other categories are used for other stuff, and they are rendered in different way. The blog's parent theme has its own implementation of related posts, but it produces pretty weak results with our current amount of posts. 
 
 The related posts should be found inside same category, with similar tags. If similar tags are not found, then we just return the lates post (which is usually interesting).
 
