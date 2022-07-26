@@ -23,7 +23,7 @@ the ci_get_related_posts to get related blog-posts.
     $related = ci_get_related_posts( get_the_ID(), 3 );
 ```
 
-Then we can write the related post function into our functions.php file. This is really the fastest way of getting the related posts, but it produces easy to understand results when you're using tags in correct way. 
+Then we can write the related post function into our functions.php file. The function combines results from several wordpress queries, so it's far from 'fast implementation'. But it really doesn't matter, since the results are cached with CDN anyway. 
 
 ```php
 function ci_get_related_posts( $post_id, $related_count, $args = array() ) {
