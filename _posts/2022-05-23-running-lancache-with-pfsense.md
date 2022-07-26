@@ -4,7 +4,7 @@ title: "Running Lancache with pfSense in 2022"
 author: Summeli
 description: Running Lancache with pfSense in 2022"
 categories:
-    - pfsense
+    - pfSense
 tags:
     - pfsense
     - lancache
