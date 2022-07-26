@@ -90,11 +90,11 @@ function ci_get_related_posts( $post_id, $related_count, $args = array() ) {
 
         //combine it all into single query with ids
         $new_args = array(
-        'post_type' => 'post',
-        'post_status' => 'publish',
-        'post__in' => $my_post_ids,
-        'order'=>'DESC',
-        'orderby'=> 'post__in',
+           'post_type' => 'post',
+           'post_status' => 'publish',
+           'post__in' => $my_post_ids,
+           'order'=>'DESC',
+           'orderby'=> 'post__in',
         );
 
 	  //return a query with posts with same tags, and then newest from same category
