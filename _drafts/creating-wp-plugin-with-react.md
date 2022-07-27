@@ -22,6 +22,8 @@ I divided the plugin in two parts, the plugin, and the reactapp. The reactapp is
 <?php
 /**
  * Plugin Name: Myapp React Plugin
+ * Description: Experimental wordpress plugin withg react
+ * Version: 1.0.0
  */
 
 function myapp_shortcode() {
