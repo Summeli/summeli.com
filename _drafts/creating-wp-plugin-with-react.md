@@ -110,3 +110,7 @@ will build the app as two files myapp.js, and myapp.css. We can later copy them 
 
 ## Running it
 Now we can just add the plugin in wordpress admin console, and use the shorcode to add the app into a wordpress page. Enjoy! 
+
+## Rerences
+![https://www.green-box.co.uk/create-a-wordpress-plugin-that-uses-a-react-app/](https://www.green-box.co.uk/create-a-wordpress-plugin-that-uses-a-react-app/)
+![]()
