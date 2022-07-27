@@ -1,3 +1,17 @@
+---
+layout: post
+title: "Creating a Wordpress plugin with react"
+author: Summeli
+description: "Creating a Wordpress plugin with create react-app and craco"
+categories:
+    - wordpress
+tags:
+    - wordpress
+    - wordpressplugin
+    - php
+    - react
+---
+
 This is a quick description how to create a wordpress plugin with create react-app
 
 I divided the plugin in two parts, the plugin, and the reactapp. The reactapp is copyed from build directory into the wordpress plugin.
@@ -38,7 +52,7 @@ Just run create react-app with your own style:
 yarn create react-app typescript
 ```
 
-### configuring the app
+### configuring the app with craco
 
 In the plugin above we're using div 'myapp-react', and we should use the same in the react-app.
 
@@ -59,9 +73,14 @@ We can also change the root-div from index.html if we want to run the app in the
 ### Building the app as single file
 In wp plugin we used the myapp.js and myapp.css files, so we should make the build produce only these two files to keep the wordpress development easy, and simple. 
 
-Here's an example how to do it with craco (Create React App Configuration Override)
+In this example I'm using craco (Create React App Configuration Override)
 
-first create craco.confix.js
+Add craco to the project:
+```bash
+yarn add @craco/craco   
+```
+
+Afer installation let's create craco.confix.js
 ```js
 // craco.config.js
 module.exports = {
@@ -112,5 +131,5 @@ will build the app as two files myapp.js, and myapp.css. We can later copy them 
 Now we can just add the plugin in wordpress admin console, and use the shorcode to add the app into a wordpress page. Enjoy! 
 
 ## Rerences
-![https://www.green-box.co.uk/create-a-wordpress-plugin-that-uses-a-react-app/](https://www.green-box.co.uk/create-a-wordpress-plugin-that-uses-a-react-app/)
+[https://www.green-box.co.uk/create-a-wordpress-plugin-that-uses-a-react-app/](https://www.green-box.co.uk/create-a-wordpress-plugin-that-uses-a-react-app/)
 ![]()
