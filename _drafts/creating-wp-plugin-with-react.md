@@ -45,6 +45,7 @@ function myapp_load_assets() {
 }
 
 add_action( 'wp_enqueue_scripts', 'myapp_load_assets' );
+?>
 ```
 
 ## Create React app
