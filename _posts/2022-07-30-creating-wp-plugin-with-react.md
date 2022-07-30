@@ -14,7 +14,7 @@ tags:
 
 This is a quick description how to create a wordpress plugin with create react-app
 
-I divided the plugin in two parts, the plugin, and the reactapp. The reactapp is copyed from build directory into the wordpress plugin.
+I divided the plugin in two parts, the plugin, and the react-app. The react-app is copyed from build directory into the wordpress plugin.
 
 ## Create Wordpress plugin
 
@@ -135,6 +135,9 @@ Now we can just add the plugin in wordpress admin console, and use the shorcode 
 
 ### Load the component with wordpress
 The react-app can be now loaded from wordpress with shorcode 'myapp-react'
+
+### Developing the app
+We can still develop the app with normal react way, by running yarn start, and writing some code.
 
 ## Rerences
 [https://www.green-box.co.uk/create-a-wordpress-plugin-that-uses-a-react-app/](https://www.green-box.co.uk/create-a-wordpress-plugin-that-uses-a-react-app/)
