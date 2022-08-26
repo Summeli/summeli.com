@@ -52,7 +52,7 @@ add_action( 'wp_enqueue_scripts', 'myapp_load_assets' );
 Just run create react-app with your own style:
 
 ```bash
-yarn create react-app typescript
+yarn create react-app my-app --template typescript
 ```
 
 ### configuring the app with craco
