@@ -71,7 +71,7 @@ root.render(
   </React.StrictMode>
 );
 ```
-We can also change the root-div from index.html if we want to run the app in the "normal developement mode also"
+We can also change the root-div from index.html if we also want to run the app in the "normal developement mode".
 
 ### Building the app as single file
 In wp plugin we used the myapp.js and myapp.css files, so we should make the build produce only these two files to keep the wordpress development easy, and simple. 
