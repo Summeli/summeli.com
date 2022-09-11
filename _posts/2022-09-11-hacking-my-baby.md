@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hackin my baby"
+title: "Hacking my baby"
 author: Summeli
 description: "Hacking my baby with Art"
 categories:
@@ -9,7 +9,7 @@ tags:
     - baby
 ---
 
-Finnish maternetity clinics gives these smiley face posters to every family. The idea is to put the smiley face next to the baby threatment table, so the baby would focus to the smiley face and relax. 
+Finnish maternetity clinics gives these smiley face posters to every family. The idea is to put the poster next to the baby threatment table, so the baby would focus to the smiley face and relax. 
 
 I was wondering why the smiley face is so good, so I draw my own and made some experiments
 
