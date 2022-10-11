@@ -12,6 +12,8 @@ tags:
 In this case we're having two WAN connections that could be shared to the LAN. Insted of setting weight etc on gatewaygroups we're load balancing the traffic based on the user's IP (odd/even). With this setup it's also easy to debug if someone is having a bad Internet connection. 
 
 ## Setting aliases for odd and even IPs
+Let's go to firewall->Aliases and set aliases for both odd, and even LAN ips.
+
 
 ## Routing based on the ips
 
