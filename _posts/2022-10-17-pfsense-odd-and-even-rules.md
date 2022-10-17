@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pfsense multiwan rules based on odd / even LAN ip"
+title: "Pfsense multiwan rules based on odd / even IP"
 author: Summeli
 description: "Pfsense multiwan routing based on odd / even ip on LAN"
 categories:
@@ -9,7 +9,9 @@ tags:
     - pfsense
 ---
 
-In this case we're having two WAN connections that could be shared to the LAN. Insted of setting weight etc on gatewaygroups we're load balancing the traffic based on the user's IP (odd/even). With this setup it's also easy to debug if someone is having a bad Internet connection. 
+In this case we're having two WAN connections that could be shared to the LAN. Insted of setting weight etc on gatewaygroups we're load balancing the traffic based on the user's IP (odd/even). One of be benefits of this setup is, that it's easy to debug if someone is having a bad Internet connection. 
+
+We're also adding upload / download limits per user to keep both of the connections working for everyone.
 
 ## Setting aliases for odd and even IPs
 
@@ -32,10 +34,10 @@ Create network limitters for upload and download
 ![](/img/2022/pfsense_limitdownload.png)
 
 Then go to Firewall / Rules. Select a rule, and click advanced
-add upload  and download rules to in / out pipes
-![](/img/2022/pfsense_rule_limitter.png)
+add upload and download rules to in / out pipes
 
+![](/img/2022/pfsense_rule_limitter.png)
 
 ## Results 
 
-Writing static routes to pfSense seems to be working a lot better than any load balancing strategy.
+Writing static routes to pfSense seems to be working a lot better than any load balancing strategy. 
