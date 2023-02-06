@@ -76,3 +76,6 @@ const-string v2, "apiebank3.danskebank.com"
 
 It seems that they are sending the program crash logs into https://danskebank.tpa.io. There's no certificate pinning, and that site seems to be accepting connections with TSL 1.0 and 1.1. It's really not following the best practises. Well, those are only crash logs. 
 
+## Decompiling the code
+
+The code could also be decompilet into easily human readable format with jd-gui. I used jd-gui plugin for IntteliJ. It seems that Danske is still using JAVA 6 to compile their sources (bytecode version 50). WTF are they doing? 
