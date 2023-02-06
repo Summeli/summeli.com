@@ -82,4 +82,4 @@ The code could also be decompilet into easily human readable format with jd-gui.
 
 ## Conclusions
 
-For me it seems that Danske does not care much about thei mobile app. It's a big mess. I would like to ask them to update the app to include the open source licenses, but it seems that they have even bigger issues with the development. 
+For me it seems that Danske does not care much about their mobile app. It's a big mess. I would like to ask them to update the app to include the open source licenses, but it seems that they have even bigger issues with the development. 
