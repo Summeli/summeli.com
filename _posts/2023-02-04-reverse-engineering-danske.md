@@ -79,3 +79,7 @@ It seems that they are sending the program crash logs into https://danskebank.tp
 ## Decompiling the code
 
 The code could also be decompilet into easily human readable format with jd-gui. I used jd-gui plugin for IntteliJ. It seems that Danske is still using JAVA 6 to compile their sources (bytecode version 50). WTF are they doing? 
+
+## Conclusions
+
+For me it seems that Danske does not care much about thei mobile app. It's a big mess. I would like to ask them to update the app to include the open source licenses, but it seems that they have even bigger issues with the development. 
