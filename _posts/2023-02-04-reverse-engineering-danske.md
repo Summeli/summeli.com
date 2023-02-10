@@ -4,9 +4,13 @@ title: "Reverse engineering DanskeBank's mobile app for oss-license violations"
 author: Summeli
 description: "Reverse engineering DanskeBank's mobile app for oss-license violations"
 categories:
-    - reverse-engineering, android
+    - reverse-engineering
+    - Android
 tags:
-    - danskebank, reverse-engineering, android, developement
+    - DanskeBank
+    - Reverse-engineering
+    - Android
+    - Developement
 ---
 
 This all started when I opened up the DanskeBank's mobileapp and I wanted to see what kind of opensource software they are using. I saw that they have software with BSD3-Clause, MIT and ICS-lisences. However, those links only led to SPDX-license boilerplate site. They don't list the author's whose software they are using! 
