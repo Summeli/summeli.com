@@ -3,7 +3,6 @@ layout: post
 title: "Reverse engineering DanskeBank's mobile app for oss-license violations"
 author: Summeli
 description: "Reverse engineering DanskeBank's mobile app for oss-license violations"
-permalink: "/posts/reverse-engineering-danske"
 categories:
     - reverse-engineering
     - Android

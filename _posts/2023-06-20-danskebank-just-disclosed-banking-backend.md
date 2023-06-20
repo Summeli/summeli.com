@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "Unveiling the Curtain: Danske Bank's Revelation of Backend Frameworks and Dependencies"
+title: "Danske Bank's Revelation of Backend Frameworks and Dependencies"
 author: Summeli
 description: "DanskeBank just disclosed alot of information about their mobile banking backend"
-permalink: "/posts/danskebank-incident"
 categories:
     - reverse-engineering
 tags:
