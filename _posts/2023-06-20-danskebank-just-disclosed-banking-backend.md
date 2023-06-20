@@ -3,14 +3,14 @@ layout: post
 title: "Unveiling the Curtain: Danske Bank's Revelation of Backend Frameworks and Dependencies"
 author: Summeli
 description: "DanskeBank just disclosed alot of information about their mobile banking backend"
-permalink: "posts/danskebank-incident"
+permalink: "/posts/danskebank-incident"
 categories:
     - reverse-engineering
 tags:
     - DanskeBank
 ---
 
-In my previous post I complained about [DanskeBank's oss licence violations](/post/reverse-engineering-danske/). Their newest version of the mobile app fixes this issue, but it also leaks a lot of information about their mobile banking backend. You can see that they are running the backend with Ruby on Rais on AWS, and what depencendies (with version infromation) they have in the mobile backend.
+In my previous post I complained about [DanskeBank's oss licence violations](/posts/reverse-engineering-danske/). Their newest version of the mobile app fixes this issue, but it also leaks a lot of information about their mobile banking backend. You can see that they are running the backend with Ruby on Rais on AWS, and what depencendies (with version infromation) they have in the mobile backend.
 
 Disclosing this information was not required, since it's not part of the binary which is deliverd to users via appstore. 
 
