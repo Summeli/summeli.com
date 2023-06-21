@@ -30,5 +30,6 @@ Sharing detailed information about server backend dependencies unnecessarily exp
 
 DanskeBank should create a process how to use Open Source software inside the company, and what information they should disclose to the users.
 
+I would also like to have a method for officially reporting the bugs to the team. I can not get these messages through customer service. No one seems to be listening. If you're working at Danske, and you are fixing these license issues, please also create an email address for sending bug reports. 
 
 
