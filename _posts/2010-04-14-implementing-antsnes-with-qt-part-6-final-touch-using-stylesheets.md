@@ -22,12 +22,11 @@ The Qt’s default style tries to look as much your original S60 theme as possib
 The good news is that you can write your own style, and use it in your own application.  
 Here’s a “before image” with my Symbian foundation default theme and AntSnes:
 
-![AntSnes with Symbian default theme](/wp-content/uploads/2010/04/antsnes_default_theme-300x169.jpg)
+![AntSnes with Symbian default theme](/wp-content/uploads/2010/04/antsnes_default_theme-300x168.jpg)
 
 The default theme has a lot of problems. For example the default blue color is used, when Qt doesn’t know what color to use. The donw arrow is also way too big in the default Qt theme.
 
-![](/wp-content/uploads/2010/04/antsnes_with_style-300x169.jpg)
-
+![Antsnes with Style](/wp-content/uploads/2010/04/antsnes_with_style-300x168.jpg)
 AntSnes with style sheet
 
 The Style sheet makes a huge difference in here. Now I can add some nice application logo’s etc, and I know that the color fits the application style. For example using that black and green AntSnes text wouldn’t really work with my default theme 😉
