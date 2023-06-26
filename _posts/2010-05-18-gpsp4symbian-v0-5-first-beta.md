@@ -22,7 +22,7 @@ The first gpSP4Symbian release is now ready for the testing. It already has some
 
 ![gpsp main view](/wp-content/uploads/2010/05/gpsp_mainview-300x169.jpg)
 
-![](/wp-content/uploads/2010/04/gpsp_withDpad-300x169.png)
+![](/wp-content/uploads/2010/04/gpsp_withDpad-300x168.png)
 
 ### cool stuff:   
 

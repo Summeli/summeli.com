@@ -18,7 +18,7 @@ tags:
 
 The AntSnes Qt is ready for first testing round. The whole UI is now working on top of Qt, so I expect there to be some new bugs compared to the older AntSnes version. The good news is that this installation won’t overwrite the older AntSnes. I also heard the the D-pad doesn’t suck anymore, so you should be able to use this emu with touch only phones too.  
 I didn’t even try to get the Audio working, since the QAudio is not yet working in the Qt 4.6.2. I’ll continue with that after the QAudio is finalized by Nokia.  
-![](/wp-content/uploads/2010/04/antsnes_with_style-300x169.jpg)  
+![](/wp-content/uploads/2010/04/antsnes_with_style-300x168.jpg)  
 
 ### Know issues:   
 1\. The audio is not yet implemented.  
