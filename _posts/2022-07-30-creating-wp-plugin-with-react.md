@@ -141,4 +141,3 @@ We can still develop the app with normal react way, by running yarn start, and w
 
 ## Rerences
 [https://www.green-box.co.uk/create-a-wordpress-plugin-that-uses-a-react-app/](https://www.green-box.co.uk/create-a-wordpress-plugin-that-uses-a-react-app/)
-![]()
