@@ -12,6 +12,9 @@ jekyll serve --drafts
 
 ## Chirby Jekyll Theme
 
+See instructions to updating Chirby theme at
+[chirby updating instructions]: (https://github.com/cotes2020/jekyll-theme-chirpy/wiki/Upgrade-Guide)
+
 ## License
 
 This work is published under [MIT][mit] License.
