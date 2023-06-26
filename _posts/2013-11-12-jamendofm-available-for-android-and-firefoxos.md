@@ -10,7 +10,7 @@ categories:
     - Android
     - 'Firefox OS'
 tags:
-    - android
+    - Android
     - firefoxos
     - html5
     - JamendoFM

@@ -4,10 +4,10 @@ title: "Creating a Wordpress plugin with react"
 author: Summeli
 description: "Creating a Wordpress plugin with create react-app and craco"
 categories:
-    - wordpress
+    - WordPress
 tags:
-    - wordpress
-    - wordpressplugin
+    - WordPress
+    - WordPressPlugin
     - php
     - react
 ---

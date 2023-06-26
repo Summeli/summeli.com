@@ -14,7 +14,7 @@ categories:
     - WordPress
 tags:
     - download-feed
-    - wordpress
+    - WordPress
 ---
 
 Download-Feed is a plugin for creating a XML feed from downloads created with [Download-Monitor](http://wordpress.org/extend/plugins/download-monitor/) WordPress plugin.  

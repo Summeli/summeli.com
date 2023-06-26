@@ -10,7 +10,7 @@ categories:
     - WordPress
 tags:
     - SMF
-    - wordpress
+    - WordPress
 ---
 
 Lately I have developed our climbing club’s website. My goal was to use the same users in Simple Machines Forum (SMF) and WordPress, so no one would have to remember multiple passwords for one site.  

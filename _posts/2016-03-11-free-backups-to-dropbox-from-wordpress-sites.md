@@ -10,7 +10,7 @@ categories:
     - WordPress
 tags:
     - backup
-    - wordpress
+    - WordPress
 ---
 
 I have WordPress based sites that I maintain. I haven’t been updating this blog for a while now. Hopefully I’ll get something neat done during this year.   

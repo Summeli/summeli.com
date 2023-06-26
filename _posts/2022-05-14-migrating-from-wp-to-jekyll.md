@@ -8,7 +8,7 @@ categories:
     - jekyll
 tags:
     - porting
-    - wordpress
+    - WordPress
     - jekyll
     - webdev
 ---

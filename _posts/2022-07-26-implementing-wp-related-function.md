@@ -4,10 +4,10 @@ title: "Implementing Wordpress related posts funciton"
 author: Summeli
 description: "Creating related posts function for Wordpress"
 categories:
-    - wordpress
+    - WordPress
 tags:
-    - wordpress
-    - wordpresstheme
+    - WordPress
+    - WordPressTheme
     - php
 ---
 

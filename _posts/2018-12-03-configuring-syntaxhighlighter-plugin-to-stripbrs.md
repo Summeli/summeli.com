@@ -12,7 +12,7 @@ categories:
 tags:
     - javascript
     - php
-    - wordpress
+    - WordPress
     - wp
 ---
 

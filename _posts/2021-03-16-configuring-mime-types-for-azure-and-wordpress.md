@@ -13,7 +13,7 @@ categories:
 tags:
     - azure
     - cloud
-    - wordpress
+    - WordPress
 ---
 
 My blog has been not working so well for quite some time. The Symbian sis file downloads were broken due to broken theme and plugins. After I got the blog working again I wanted to move it into cloud.
