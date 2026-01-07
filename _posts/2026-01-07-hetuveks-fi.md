@@ -2,7 +2,7 @@
 layout: post
 title: "Hetuveks.fi remove finnish ssn from your pdf documents"
 author: Summeli
-description: "Hetuveks.fi remove finnish ssn from your pdf documents""
+description: "Hetuveks.fi remove finnish ssn from your pdf documents"
 categories:
     - service
 tags:
