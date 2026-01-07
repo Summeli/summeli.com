@@ -13,8 +13,7 @@ Over the years, while attending apartment viewings in Oulu, my email inbox has e
 
 In old land-use agreements, rental contracts, and other attachments, personal identity codes are almost always included. In practice, this means my email inbox is full of people’s personal data — a setup that doesn’t really hold up when viewed through the lens of information security, GDPR, or common sense.
 
-During the Christmas holidays, I decided to do something about it and built https://hetuveks.fi.
-The service automatically removes personal identity codes from PDF documents.
+During the Christmas holidays, I decided to do something about it and built [hetuveks.fi](https://hetuveks.fi). The service automatically removes personal identity codes from PDF documents.
 
 Hetuveks works with:
 	•	text-based PDF files
